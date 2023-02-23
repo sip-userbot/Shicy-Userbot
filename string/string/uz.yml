@@ -1,0 +1,630 @@
+name: Uzbekcha
+natively: Uzbekcha
+
+authors:
+  - TechnobladeUzb
+  - shicy
+
+# umumiy
+com_1: "`Qayta ishlanmoqda...`"
+com_2: "`Qidirilmoqda...`"
+com_3: "`Noto'g'ri kiritish`"
+com_4: "`Qo'llab-quvvatlanmaydigan media..`"
+com_5: "Yuklab olinmoqda..."
+com_6: "Yuklanmoqda..."
+
+# chat
+can_1: "#GBanned_User qoʻshildi.\n\n**Foydalanuvchi** : {}\n**Sabab**: {}\n\n`Foydalanuvchi taqiqlangan.`"
+can_2: "∆ #Foydalanuvchi nomini yangilash\n\n@{} foydalanuvchi nomini @{} qilib o'zgartirdi"
+can_3: "∆ #UsernameUpdate\n\n{} foydalanuvchi nomini olib tashladi. (@{})"
+can_4: "∆ #Foydalanuvchi nomini yangilash\n\n{} ning yangi foydalanuvchi nomi --> @{}"
+
+# Yordam bering
+help_1: "`{}` yaroqli plagin emas!"
+help_2: "Bot ichki soʻrovga javob bermadi.\n`{}qayta ishga tushirish`dan foydalanishni oʻylab koʻring"
+help_3: "` @Botfather'dan botingiz uchun inline rejimini yoqing."
+help_4: "• Plaginlar"
+help_5: "• Qo'shimchalar"
+help_6: "••Ovozli chat"
+help_7: "Inline plaginlar••"
+help_8: "⚙️ Egasi vositalari"
+help_9: "Sozlamalar ⚙️"
+help_10: "••Cʟᴏgaᴇ••"
+help_11: "Plagin nomi-{}\n\n✘ Mavjud buyruqlar -\n\n"
+
+# foydalanuvchi jurnali
+userlogs_1: "Teg jurnalida siz o'rnatgan suhbat identifikatori noto'g'ri, uni to'g'rilang"
+userlogs_2: "Teglar jurnaliga kirish uchun meni teg qayd qiluvchi chatingizga qo'shing"
+userlogs_3: "Chatdan chiqish"
+userlogs_4: "Sizning yordamchi botingiz teglar jurnali chatida xabar yubora olmaydi.\nTeg jurnallaringizni olish uchun uni qoʻshing.."
+userlogs_5: "Chap `{}`"
+
+# administrator
+adm_1: "`U kimligini tushunolmadim!`"
+adm_2: "`Hmm.. Bu yerda mening huquqim yo'q deb o'ylayman!`"
+adm_3: "`Vaqt ham bering..`"
+pro_1: "`Foydalanuvchini reklama qilish uchun unga javob bering!`"
+pro_2: "{} `endi {} nomli {} administratori.`"
+de_1: "`Foydalanuvchining lavozimini pasaytirish uchun unga javob bering!`"
+de_2: "{} ` endi {}` da administrator emas"
+ban_1: "`Foydalanuvchiga javob bering yoki uni bloklash uchun foydalanuvchi nomini bering!`"
+ban_2: " `LoL, men dasturchini bloklay olmayman 😂`"
+ban_3: "`Foydalanuvchini taqiqlashga haqqim yo'q.`"
+ban_4: "{} ** tomonidan taqiqlangan** {} **in** `{}`"
+ban_5: "\n**Sabab**: `{}`"
+tban_1: "`Birovga javob bering yoki uning identifikatorini bering...`"
+tban_2: "`Muvaffaqiyatli taqiqlandi` `{}` {} ichida {}` uchun"
+unban_1: "`Foydalanuvchiga javob bering yoki uni blokdan chiqarish uchun foydalanuvchi nomini bering!`"
+unban_2: "`Foydalanuvchini blokdan chiqarish huquqiga ega emasman.`"
+unban_3: "{} ** tomonidan taqiqlangan** {} **in** `{}`"
+kick_1: "`Men foydalanuvchini tepishga haqqim yo'q.`"
+kick_2: " `Lol, men dasturchimni tepolmayman`😂"
+kick_3: "`Men uni hech qachon tepolmayman...`"
+kick_4: "{} ** tomonidan tepildi** {} **in** `{}`"
+pin_1: "` Xabarni mahkamlash uchun unga javob bering!`"
+pinned_1: "Hech qanday mahkamlangan xabar topilmadi!"
+unpin_1: "Yoki xabarga javob bering yoki '{}hammasini olib tashlash' dan foydalaning"
+listpin_1: "Bu guruhda hech qanday xabar qadalmagan!"
+purge_1: "`Tozalash uchun xabarga javob berish.`"
+purgeall_1: "`Oʻchirish uchun birovning xabariga javob bering.`"
+purgeall_2: "{} dan barcha xabarlar muvaffaqiyatli tozalandi"
+
+#akinator
+aki_1: "Oʻyin tugatildi...."
+aki_2: "O'yinni boshlash"
+aki_3: "Vaqt tugadi!"
+
+#toshqinga qarshi
+antiflood_1: "`Floodga qarshi sozlamalar o'chirilgan`"
+antiflood_2: "`Bu chatda toshqin chegarasi yo'q.`"
+antiflood_3: "`Sizning ovozingiz o'chirildi.`"
+antiflood_4: "`Ushbu chatda toshqinga qarshi sozlamalar {} ga muvaffaqiyatli yangilandi.`"
+antiflood_5: "`Bu chat uchun toshqin chegarasi: {}.`"
+
+# ascii
+ascii_1: "`Rasmga javob berish.`"
+ascii_2: "`html-ga aylantirilmoqda...`"
+
+# audio asbob
+audiotools_1: "Audio yoki videoga javob berish.."
+audiotools_2: "Muvaffaqiyatli yuklab olindi, endi ovozga aylantirilmoqda"
+audiotools_3: "`Qisqish uchun formatda vaqt bering`"
+audiotools_4: "`Noto'g'ri ma'lumotlar`"
+audiotools_5: "`Yuklab olishga urinilmoqda...`"
+audiotools_6: "`Noto'g'ri kesish muddati`"
+audiotools_7: "Ovoz `{}`dan `{}`gacha kesilgan"
+audiotools_8: "Video faylga javob berish..`"
+audiotools_9: "`Hech qanday audio topilmadi...`"
+audiotools_10: "`Videodan olingan audio...`"
+
+# asstcmd
+asstcmd_1: "`Buyruqdan foydalanish uchun javob va soʻz bilan ushbu buyruqdan foydalaning.`"
+asstcmd_2: "`Oʻchirmoqchi boʻlgan buyruqni bering.'"
+asstcmd_3: "Buyruq bajarildi: `/{}` olib tashlandi."
+asstcmd_4: "Bajarildi buyruq: `/{}` saqlandi."
+asstcmd_5: "Hech qanday buyruq topilmadi"
+asstcmd_6: "**BARCHA ASSISTANT CMDS**\n\n"
+
+# avtomatik tuzatish
+act_1: “AVTOTOZORAT funksiyasi yoqilgan”
+act_2: "AVTOTOZORAT funksiyasi oʻchirilgan"
+
+#avtopik
+autopic_1: "`Qidirish uchun biror narsa bering...`"
+autopic_2: "`{}` uchun hech qanday natija topilmadi"
+autopic_3: "Qidiruvingizga tegishli `{}` toʻplami bor !\nAutopic boshlanmoqda !"
+autopic_4: "AUTOPIC ishlatilmadi !!"
+autopic_5: "AUTOPIC to'xtatildi!"
+
+# mos ravishda
+inline_1: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ShicyyXCode)\n\n**Hᴇʟᴘ Mᴇɴᴜ Og {}.\n\nPʟᴜɢɪɪɴs ~"
+inline_2: "[Uʟᴛʀᴏɪᴅ Sᴜᴘᴘᴏʀᴛ](t.me/ShicyyXCode)\n\n**Hᴇʟᴘ Mᴇɴᴜ Og {}.\n\nAᴅᴅᴏɴs ~ {}**ɴs"
+inline_3: "[Uʟᴛʀᴏ_ULDODUPRANK) \ N \ N \ {\ NAYS ~ n \ Naᴅᴅᴏɴs ~ \ nd \ ndᴏ ** \ ndᴏ  ɢᴇᴛ ᴀᴅᴅᴏɴs.**"
+inline_4: "** Bᴏᴛ Og {}\n\nMᴀɪɴ Mᴇɴᴜ\n\nPʟᴜɢɪɴs ~ {}\nAᴅᴅᴏɴs ~ {}\nTᴏᴛᴀʟ Cᴏᴛᴀʟ Cᴏᴍɴs ~}ᴏᴍ"
+inline_5: "**Mᴇɴᴜ Hᴀs Bᴇᴇɴ Cʟᴏsᴇᴅ**"
+inline_6: "**{}**\n**Mavjud buyruqlar uchun ovozli suhbat yordam menyusi:** `{}`\n\n@TeamUltroid"
+inline_7: "Buyruqlar roʻyxatini olish uchun .help {} dasturini bajaring."
+inline_8: "Yangilanish uchun quyidagi tugmani bosing!"
+inline_9: "Siz allaqachon oxirgi versiyadasiz"
+
+#tagnotif
+tagnot_1: "{} sizni {}\n\n```{}```\n\n[📨 Xabar 📨]({}) da belgiladi"
+tagnot_2: "{} sizni {}\n\n [📨 Xabar 📨]({}) da belgiladi"
+
+#shivir
+wspr_1: "@{} siz uchun maxfiy xabar.\nOʻqib boʻlgach, xabaringizni oʻchirib tashlang.\nYoki keyingi xabar yangilanmaydi."
+wspr_2: "Xabar o'chirildi"
+wspr_3: "Id yoki foydalanuvchi nomini ham qo'shing"
+wspr_4: "Foydalanuvchi {} topilmadi\nQayta qidirish"
+wspr_5: "Siz buni qila olmaysiz"
+
+# afk
+afk_1: "**Endi Afk emas**\n\n~ `{}` uchun uzoqda edi"
+afk_2: "#AFK\nAFK rejimini 'False'ga o'rnating.\n~ `{}` dan beri AFK edi"
+afk_3: "**Men hozir AFKman.**\nOxirgi marta `{}` oldin koʻrilgan.\n\n**Sabab:** `{}`"
+afk_4: "**Men hozirda AFKman.**\n\nOxirgi marta `{}` oldin koʻrilgan."
+afk_5: "**Men AFKga boraman.**\n\n**Sabab:** `{}`"
+afk_6: "**Men AFKga ketyapman.**"
+
+#bot
+bot_1: "Hey, men tirikman."
+bot_2: "Statistikalar"
+bot_3: "Repo"
+bot_4: "Qo'llab-quvvatlash"
+bot_5: "• `Qayta ishga tushirilmoqda...`"
+alive_1: "**Shicyy-Userbot...**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\  n┣ **Egasi** - `{}`\n┣ **Versiya** - `{}`\n┣ **Py-Ultroid** - `{}`\n┣ **UpTime** - `  {}`\n┣ **Python** - `{}`\n┣ **Telefon** - `{}`\n┣ **Filial** - `{}`\n┗━━━━━  ━━━━━━━━━━━━━━━━"
+log: "**Heroku** Shicyy jurnallari.\nShuningdek [bu yerga]({}) joylandi!"
+ping: "**Pong !!** `{}ms`\n**Uptime** - `{}`"
+foydalanish: "**⚙️ Dyno-dan foydalanish ⚙️**:\n\n-> **Dyno-dan foydalanish** `{}`:\n • **{}h** **{}m |** `[  {}%]`\n-> **Bu oyda qolgan ish soatlari kvotasi**:\n • **{}h** **{}m |** `[{}%]`\n\n*  *Jami disk maydoni**: `{}`\n**Ishlatilgan**: `{}`\n**Bepul**: `{}`\n\n**📊 Ma'lumotlardan foydalanish 📊**\n*  *Yuklash**: `{}`\n**pastga**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\  n**DISK**: `{}%`"
+usage_simple: "**Jami disk maydoni**: `{}`\n**Ishlatilgan**: `{}`\n**Bepul**: `{}`\n\n**📊 Ma'lumotlardan foydalanish 📊*  *\n**Yuklash**: `{}`\n**pastga**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{  }%`\n**DISK**: `{}%`"
+
+# qora roʻyxat
+blk_1: "`Soʻzni qora roʻyxatga kiriting..'"
+blk_2: "Bajarildi: `{}` Bu yerda qora roʻyxatga kiritilgan."
+blk_3: "`Qora ro'yxatdan olib tashlash uchun so'zni bering..`"
+blk_4: "Bajarildi: `{}` Qora roʻyxatdan oʻchirildi."
+blk_5: "Ushbu chatlarda topilgan qora roʻyxat:\n\n"
+blk_6: "Bu erda qora ro'yxatdagi so'z topilmadi"
+
+#ko'rsatuv
+bd_1: "`JBga qoʻshilmoqda...'"
+bd_2: "`Barcha administrator kanallarini JB ga qo'shishga urinilmoqda...`"
+bd_3: "**Bajarildi.**\nMa'lumotlar bazasida allaqachon chatlar: {}\nYangi qo'shilgan: {}"
+bd_4: "Kanallar qo'shildi!"
+bd_5: "`Ma`lumotlar bazasiga qo`shildi!`"
+bd_6: "`Kanal allaqachon ma'lumotlar bazasi!'"
+bd_7: "Ma'lumotlar bazasidan o'chirildi"
+bd_8: "`O'chirish...`"
+bd_9: "Kanal allaqachon ma'lumotlar bazasidan o'chirilgan."
+
+# kalkulyator
+calc_1: "• Ultraroid Inline Kalkulyator •"
+calc_2: "Kalkulyatorni yana oching"
+
+# kanalni buzish
+cha_1: "yaroqsiz kanal berilgan"
+cha_2: "Manba muvaffaqiyatli qo'shildi"
+cha_3: "Manba kanal allaqachon qo'shilgan"
+cha_4: "Manba ma'lumotlar bazasi tozalandi."
+cha_5: "Manba ma'lumotlar bazasidan olib tashlandi"
+cha_6: "Manba kanali allaqachon ma'lumotlar bazasidan o'chirilgan."
+cha_7: "Ma'lumotlar bazasidagi maqsadli kanallar:"
+cha_8: "Ma'lumotlar bazasidagi manba kanallari:"
+
+#uglerod
+carbon_1: “[{}](tg://user?id={}) tomonidan karbonlangan”
+carbon_2: "`Xabarga javob berish yoki o'qilishi mumkin bo'lgan fayl..`"
+carbon_3: "`Uglerod yaratish uchun maxsus rang bering...`"
+
+# chat_bot
+chab_1: "AI ChatBot qo'shish uchun foydalanuvchiga javob bering yoki uning id/foydalanuvchi nomini bering!"
+chab_2: "`Hech bir foydalanuvchi AI qo'shilmagan.`"
+chab_3: "**Ushbu chatdagi sunʼiy intellektga ega foydalanuvchilarning umumiy roʻyxati:**\n\n"
+
+# chat
+chats_1: "`Ushbu suhbatni oʻchirib boʻlmadi'"
+chats_2: "`Men admin emasman`"
+chats_3: "#O'chirildi\nO'chirildi {}"
+chats_4: "Sizning [{}]({}) guruhingiz xo'jayiniga aylandi!"
+chats_5: "@shicyyXCode qo'shiling"
+chats_6: "Sizning {} guruhingiz/kanalingiz rahbari etib tayinlandi!"
+
+# toza harakat
+clan_1: "Ushbu chat uchun toza harakat sozlamalari qo'shildi"
+clan_2: "Ushbu chat uchun toza harakat sozlamalari olib tashlandi"
+clan_3: "`Noto'g'ri ID`"
+clan_4: "`Chat qoʻshilmagan"
+
+# konvertor
+cvt_1: "`Har qanday media/hujjatga javob berish.`"
+cvt_2: "Fayl nomi va kengaytmasini bering"
+cvt_3: "`Ommaviy axborot vositalariga javob berish..`"
+cvt_4: "`img yoki eskiz bilan faylga javob bering.`"
+cvt_5: "Javob berilgan faylda eskiz yo'q.`"
+cvt_6: “[Bu]({}) sizning shaxsiy eskizingiz sifatida qo‘shildi”
+cvt_7: "`O'qilishi mumkin bo'lgan faylga javob berish`"
+cvt_8: "`Oʻqish mumkin boʻlmagan fayl.'"
+
+#kun voqealari
+eod_1: "🎊 **Kun voqealari**\n\n"
+eod_2: "• **{}/2021 yilgi voqealar**\n\n"
+
+#yadro
+core_1: "Modul topildi"
+core_2: "{}.py neko va xom shaklda joylashtirish uchun .paste dan foydalaning.."
+core_3: "Yana qidirilsin..?"
+core_4: "Modul {} topildi"
+core_5: "{}.py neko va xom shaklda joylashtirish uchun .paste dan foydalaning.."
+core_6: "Modul {}.py topilmadi"
+core_7: "Bunday modul yo'q"
+core_8: "{}.py nomli modul yo'q"
+core_9: "`Yuklamoqchi boʻlgan plagin nomini bering'"
+core_10: "**Uɴʟᴏᴀᴅᴇᴅ** `{}` **Sᴜᴄᴄᴇssgᴜʟʟʏ.**"
+core_11: "**Yᴏᴜ Cᴀɴ'ᴛ Uɴʟᴏᴀᴅ Oggɪᴄɪᴀʟ Pʟᴜɢɪɴs**"
+core_12: "**Nᴏ Pʟᴜɢɪɴ Nᴀᴍᴇᴅ** `{}`"
+core_13: "`Oʻchirib tashlamoqchi boʻlgan plagin nomini bering'"
+core_14: "**Uɴɪɴsᴛᴀʟʟᴇᴅ** `{}` **Sᴜᴄᴄᴇssgᴜʟʟʏ.**"
+core_15: "**Yᴏᴜ Cᴀɴ'ᴛ Uɴɪɴsᴛᴀʟʟ Oggɪᴄɪᴀʟ Pʟᴜɢɪɴs**"
+core_16: "`Yuklamoqchi bo'lgan plagin nomini bering`"
+core_17: "**Sᴜᴄᴄᴇssgᴜʟʟʏ Lᴏᴀᴅᴇᴅ** `{}`"
+core_18: "**Yuklab bo‘lmadi** `{}` **quyidagi xatolik tufayli.**\n`{}`"
+
+# ishlab chiquvchi vositalar
+devs_1: "`Cmd berilmagan`"
+devs_2: "`Bir oz python cmd bering`"
+devs_3: "`C++ kodini bering..`"
+
+# dm
+dm_1: "`Chat foydalanuvchi nomi yoki identifikatorini qayerga yuborishni bering.`"
+dm_2: "`Xabar yuborish yoki javob berish uchun matnni bering`"
+dm_3: "`⚜️Xabar yetkazildi!⚜️`"
+dm_4: "Xato: {}\nFoydalanishni o'qish: `{}help dm`"
+dm_5: "`Shaxsiy tekshirish.`"
+dm_6: "`Etkazib berish uchun hech qanday xabar topilmadi :(`"
+
+# aks-sado
+echo_1: "**Foydalanuvchilar uchun echo faollashtirilgan:**\n\n"
+
+# soxta harakat
+fka_1: "{} soniya davomida soxta harakat boshlanmoqda."
+
+# fedutils
+sf_1: "Mass-FedBan ishga tushirilmoqda..."
+sf_2: "`Hech qanday foydalanuvchi belgilanmagan!`"
+sf_3: "Siz mening devimni taqiqlay olmaysiz, noob!!"
+sf_4: "`Rose javob bermayotganga oʻxshaydi yoki plagin notoʻgʻri ishlayapti'"
+sf_5: "Siz har 5 daqiqada bir marta ta'minlangan buyruqlardan foydalanishingiz mumkin"
+sf_6: "5 daqiqadan keyin qayta urinib ko'ring."
+sf_7: "FedAdminListni yig‘ib bo‘lmadi. Qayta urinilmoqda ({}/3)..."
+sf_8: "Xato"
+sf_9: "FedAdminListni yig‘ib bo‘lmadi."
+sf_10: "{} ta kanalda FBaning."
+sf_11: "Ko'rsatilgan FBan guruhi identifikatori noto'g'ri."
+sf_12: "{} istisno."
+sf_13: "FedAdmin faylini olib tashlashda xatolik.\n{}"
+sf_14: "SuperFBan tugallandi.\nJami Fedlar - {}.\nChikarildi - {}.\n Ta'sir qilingan {} ta ta'sir.\n#TB"
+sf_15: "Ommaviy UnFedBan ishga tushirilmoqda..."
+sf_16: "SuperUnFBan tugallandi.\nJami Fedlar - {}.\nChikarildi - {}.\n Ta'sir qilingan {} ta ta'sir.\n#TB"
+sf_17: "`Menga kimningdir identifikatorini bering yoki uning federal statistikasini tekshirish uchun somones xabariga javob bering.`"
+sf_18: "Fedlar roʻyxati {} taqiqlangan.\n\nshicy yordamida toʻplangan."
+sf_19: "**Xato**\n `Blokdan chiqarish` @MissRose_Bot `va qayta urinib ko'ring!"
+sf_20: "`Ma'lumot olinmoqda...`"
+sf_21: "\n\nFedInfo shicy tomonidan olingan"
+sf_22: "Hech qanday foydalanuvchi belgilanmagan."
+sf_23: "**Xato**\n `Blokdan chiqarish` @MissRose_Bot `va qayta urinib ko'ring!"
+
+# filtr
+flr_1: "`Filtr sifatida belgilash va javob berish uchun ushbu buyruq soʻzidan foydalaning...`"
+flr_2: "Ushbu chatlarda topilgan filtrlar\n\n"
+flr_3: "`Olib tashlash uchun filtrni bering..`"
+flr_4: "Bajarildi: Filtr `{}` saqlandi."
+flr_5: "Bajarildi: `{}` filtri olib tashlandi."
+flr_6: "Bu erda hech qanday filtr topilmadi"
+
+# shriftgen
+fgn_1: "**Mavjud shriftlar**\n\n"
+
+# majburiy obuna
+fsub_1: "Foydalanuvchi qo'shilishi kerak bo'lgan kanalni bering!"
+fsub_2: "To'g'ri kanal foydalanuvchi nomi yoki identifikatorini bering"
+fsub_3: "ForceSub bu chatda faol emas edi!"
+fsub_4: "Kanalga qo'shilish"
+fsub_5: "Ovozimni o'chirish"
+fsub_6: "Iltimos, o'sha kanalga qo'shiling !\nKeyin bu tugmani bosing !"
+fsub_7: "Bu xabar siz uchun emas"
+fsub_8: "Qo'shilganingiz uchun rahmat!"
+
+# qo'shimcha
+ex_1: "`Xatga javob berish..`"
+
+# gdrive
+gdrive_1: "`Siz allaqachon Google Drive bilan avtorizatsiya qilgansiz`"
+gdrive_2: “[bu yerga](https://console.developers.google.com/flows/enableapi?apiid=drive) o‘ting va `GDRIVE_CLIENT_ID` va `GDRIVE_CLIENT_SECRET`ni oling\n\nGDRIVE_CLIENT_ID va GDRIVEETC-ni shu GDRIVEETC.\n sifatida yuboring.  n`GDRIVE_CLIENT_ID GDRIVE_CLIENT_SECRET` bo'sh joy bilan ajratilgan."
+gdrive_3: "`Mijoz identifikatori noto'g'ri`"
+gdrive_4: "`Nimadir xato ketdi! Yana avtorizatsiya qiling.\nAgar shunday boʻlsa, `@TeamUltroid bilan bogʻlaning"
+gdrive_5: "`Muvaffaqiyatli!\nSiz Google Diskdan shicy-Userbot bilan foydalanishga tayyorsiz.`"
+gdrive_6: "``[bu yerga](t.me/{}?start=set)` o'ting va G-Drive`ni sozlang."
+gdrive_7: “G-Drive’ga [{}]({}) muvaffaqiyatli yuklandi”
+
+# qo'shimchalarni oling
+gas_1: "Iltimos, xom havolani taqdim eting!"
+
+#salom
+grt_1: "`Xush kelibsiz eslatma saqlandi`"
+grt_2: "Iltimos, bundan PM emas, balki guruhda foydalaning!"
+grt_3: "`Xush kelibsiz deb belgilamoqchi bo'lgan xabarga javob bering`"
+grt_4: "`Xush kelibsiz sozlanmagan!`"
+grt_5: "`Xush kelibsiz eslatma o'chirildi`"
+grt_6: "`Hech qanday xayrlashmagan!`"
+grt_7: "`Xayrlashmoqchi bo'lgan xabarga javob bering`"
+
+#mediainfo
+mdi_1: "Batafsil ma'lumot"
+
+# tungi rejim
+nightm_1: "Vaqtni to'g'ri formatda bering"
+nightm_2: "Vaqt muvaffaqiyatli o'rnatildi"
+nightm_3: "Bajarildi, joriy chat tungi rejimga qo'shildi"
+nightm_4: "Bajarildi, joriy chat tungi rejimdan olib tashlandi"
+nightm_5: "Nimadir noto'g'ri ketdi"
+
+# pmpermit
+pmperm_1: "Iltimos, javob berishimni kuting, aks holda siz bloklanadi va spam deb xabar qilinadi!!"
+pmperm_2: "Ey, men sizga spam yubormaslikni aytdim!\nSiz hozircha bloklandingiz va xabar qilindingiz."
+pmperm_3: "Birovning xabariga javob bering yoki bu buyruqni shaxsiy tarzda sinab ko‘ring."
+
+# jadval_xabar
+schdl_1: "`Rejalashtirilgan xabar muvaffaqiyatli'"
+schdl_2: "`Noto'g'ri format`"
+
+# ta qidiruv
+srch_1: "`Kimni qidiring? Menga foydalanuvchi nomini bering!!`"
+srch_2: "`Bunday foydalanuvchi topilmadi...`"
+srch_3: "`Qo'shiq topilmadi...`"
+
+# parcha
+snip_1: "Snip sifatida belgilash va xabarga javob berish uchun so'z bering."
+snip_2: "O'chirish uchun so'zni bering..."
+snip_3: "Bu yerda hech qanday parcha topilmadi."
+
+#maxsus vositalar
+spcltool_1: "Audio yoki videoga javob berish"
+spcltool_2: "`Bajarildi. Endi siz ushbu Audio qo'shmoqchi bo'lgan videoga javob bering`"
+spcltool_3: "Videoga javob berish"
+spcltool_4: "`Birinchi navbatda audioga .raw bilan javob bering`"
+spcltool_5: "Muvaffaqiyatli yuklab olindi, endi audio videoga qo'shilmoqda"
+spcltool_6: "`Kirishni dd/aa/yyyy formatida qo'ying`"
+spcltool_7: "`Tug'ilgan kuning bilan🎉🎊`"
+spcltool_8: "Qidirish uchun biror narsa bering .."
+spcltool_9: "Hech narsa topilmadi"
+
+# sudo
+sudo_1: "`Xatga javob bering yoki uning identifikatori/foydalanuvchi nomini qo'shing.`"
+sudo_2: "Siz o'zingizni Sudo foydalanuvchisi sifatida qo'sha olmaysiz..."
+sudo_3: "`Hech qanday SUDO foydalanuvchisi tayinlanmagan ...`"
+sudo_4: "`Botlarni Sudo foydalanuvchilari sifatida qoʻshib boʻlmaydi.'"
+
+# chiqish
+unspl_1: "Hech qanday natija topilmadi!"
+
+# yangilovchi
+upd_1: "`Yangilanishlar tekshirilmoqda...`"
+upd_2: "`Of.. Ba'zi muammolar tufayli yangilovchi davom eta olmaydi.`\n\n**LOGTRACE:**\n"
+upd_3: "**Yangi YANGILANISH [[{}]]({}/tree/{}) uchun mavjud:\n\nCHANGELOG**\n\n{}"
+upd_4: "`Oʻzgarishlar jurnali juda katta, uni koʻrish uchun faylni koʻring.'"
+upd_5: "Yangilanish uchun quyidagi tugmani bosing."
+upd_6: "\n`Sizning BOTingiz` **yangilangan** `bilan` **[[{}]]({}/tree/{})**\n"
+upd_7: "`Tezkor yumshoq yangilanish...`"
+
+# yuklab olish
+udl_1: "`Yuklab olmoqchi bo'lgan fayl/mediaga javob bering...`"
+udl_2: "Yuklab olish muvaffaqiyatli..\n\n`{}`\nin `{}`"
+udl_3: "`Faylga aniq yoʻlni bering`"
+udl_4: "`Yuklab olishga urinilmoqda...`"
+udl_5: "`Siz havolani berishni unutdingiz :(`"
+udl_6: "`Bu katalog boʻsh.`"
+udl_7: "`Siz buni qilolmaysiz!`"
+
+# so'z
+wrd_1: "• **Soʻz:** `{}`\n• **Maʼnosi:** __{}__\n\n• **Misol:** __{}__"
+wrd_2: "**Word** - `{}`\n\n**Sinonimlar** - \n"
+wrd_3: "**So'z** - `{}`\n\n**Antonimlar** - \n"
+wrd_4: "`Ma`nosini topish uchun so`z bering..`"
+wrd_5: "Sinonimlar"
+wrd_6: "Antonimlar"
+wrd_7: "Hech qanday sinonim topilmadi!!\n\n`{}`"
+wrd_8: "Hech qanday antonim topilmadi!!\n\n`{}`"
+
+# qabihlik
+prof_1: "`Ushbu chatni haqoratli so'zlarni filtrlash uchun qo'shdi!'"
+prof_2: "`Ushbu chat haqoratli soʻzlarni filtrlashdan olib tashlandi!'"
+
+# ta qayd
+notes_1: "` Qayddan foydalanish uchun javob va soʻz bilan ushbu buyruqdan foydalaning.`"
+notes_2: "Bajarildi Eslatma: `#{}` saqlandi."
+notes_3: "`Oʻchirmoqchi boʻlgan eslatma ishlov beruvchisini bering.'"
+notes_4: "Ushbu chatlarda topilgan eslatmalar\n\n"
+notes_5: "Bu yerda hech qanday eslatma topilmadi"
+
+# stiker vositalari
+sts_1: "`Siz hech qanday maqola yozmagansiz, Waifu ketadi.`"
+sts_2: "`Animatsiyalangan stikerga javob berish...`"
+sts_3: "**Iltimos, {} ** dan tanlang"
+sts_4: "`Animatsiya qilinmagan stikerga javob berish.`"
+sts_5: "**To‘plam muvaffaqiyatli o‘tkazildi**.\n**Kanged to‘plami:** [link]({})"
+sts_6: "`Xabarga/mediaga javob berish...`"
+sts_7: "`Stiker boshqa toʻplamga qoʻshilgan !\nUshbu toʻplam yangi yaratilgan!\nSizning toʻplamingizni topish mumkin` [bu yerda](t.me/addstickers/{})"
+sts_8: "`Stiker qo‘shib bo‘lmadi, stikerni qo‘lda qo‘shish uchun @Stickers `botidan foydalaning.`"
+sts_9: "`Ooo animatsion stiker 👀...`"
+sts_10: "`Har qanday mediaga javob berish...`"
+sts_11: "Ushbu stiker o‘rnatilmoqda..."
+sts_12: "`Kanged!`\n`Emoji`: {}\n`Stikerlar toʻplami` [bu yerda](t.me/addstickers/{})"
+sts_13: "Bo‘sh joy yetarli emasligi sababli {} to‘plamiga o‘tilmoqda`"
+
+#qaysi qo'shiq
+whs_1: "<• Audio faylga javob berish •>"
+whs_2: "`Qo'shiqni aniqlashga urinilmoqda....`"
+whs_3: "Qo'shiqni aniqlab bo'lmadi :("
+whs_4: "**Qo'shiq tanildi!**\nIsmi: __{}__"
+
+# veb-yuklash
+wbl_1: "`Fayl nomini bering, iltimos..`"
+
+#yozuvchi
+writer_1: "`Matn ham bering`"
+
+# veb-surat
+wbs_1: "`Iltimos, URL manzilini bering!`"
+wbs_2: "URL noto'g'ri!"
+wbs_3: "**WebShot yaratilgan**\n**URL**: {}"
+
+#youtube
+youtube_1: "Audio yuklab olish uchun (youtube) URL manzilini bering!"
+youtube_2: "`Yuklab olish uchun toʻgʻridan-toʻgʻri audio havolasini bering'"
+youtube_3: "Videoni yuklab olish uchun (youtube) URL manzilini bering!"
+youtube_4: "`Yuklab olish uchun bevosita video havolasini bering`"
+youtube_5: "Audio yuklab olish uchun menga (youtube) qidiruv so'rovini bering!"
+youtube_6: "`Audio qoʻshiq yuklab olinmoqda...`"
+youtube_7: "Video yuklab olish uchun menga (youtube) qidiruv so'rovini bering!"
+youtube_8: "`Video qoʻshiq yuklab olinmoqda...`"
+
+# ziptools
+zip_1: "Har qanday media/hujjatga javob bering."
+zip_2: "Avval barcha fayllarni `{}addzip` orqali qo'shing, so'ngra barcha fayllarni bittadan ziplash uchun doZip."
+zip_3: "`Faqat zip faylga javob berish`"
+
+# ------------------------- yordamchi -----------------------  ---#
+
+ast_1: "Qaysi APIni o'rnatmoqchi bo'lganingizni tanlang."
+ast_2: "**remove.bg API**\nRemove.bg dan API kalitingizni kiriting.\n\nAmaliyatni tugatish uchun /cancel dan foydalaning."
+ast_3: "Salom {}. Variantlar bilan tanishib chiqing"
+
+# qatordagi narsa
+instu_1: "Ilova qidiruvi. Ilova nomini kiriting!"
+instu_2: "So'nggi qidiruvlar.."
+instu_3: "Qidirish uchun so'rovni kiriting"
+instu_4: "Muvaffaqiyat"
+
+# qayta qo'ng'iroq
+clst_1: "`Userbot dyno qurilishi davom etmoqda, uning tugashini kuting.`"
+clst_2: "`Muvaffaqiyatli yangilandi!\nQayta ishga tushirilmoqda, kuting...`"
+clst_3: "■ O‘zgarishlar jurnallari yaratilmoqda..."
+clst_4: "Nimadir noto‘g‘ri ketdi..."
+clst_5: "Bajarildi!"
+
+# pmbot
+pmbot_1: "**Ustozim bilan suhbatlashish uchun quyidagi chat(lar)ga qo‘shilishingiz kerak!\n\n**"
+pmbot_2: "Iltimos, kimnidir bloklash uchun javob yozing."
+pmbot_3: "Foydalanuvchi allaqachon taqiqlangan!"
+pmbot_4: "`Xayr! Siz taqiqlangansiz.`\n**Siz yuborgan boshqa xabarlar boshqa yoʻnaltirilmaydi.**"
+pmbot_5: "Iltimos, kimnidir blokdan chiqarish uchun javob yozing."
+pmbot_6: "Foydalanuvchi hech qachon taqiqlanmagan!"
+pmbot_7: "`Tabriklaymiz! Siz taqiqdan chiqarildingiz.`"
+
+# ---------------------------------- VcBot -----------------  --------- #
+
+vcbot_1: "`Ovozli suhbatni tark etdim.`"
+vcbot_2: "**XATO:**\n{}"
+vcbot_3: "• Ovoz balandligi `{}%` ga o'zgartirildi •"
+vcbot_4: "`Iltimos, 1 dan 200 gacha hajmni belgilang!`"
+vcbot_5: "`Ushbu ovozli chatga qayta qoʻshilish.`"
+vcbot_6: "Siz ovozli chatga ulanmagansiz!"
+vcbot_7: "`Sabr qiling... Bu biroz vaqt oladi.`"
+vcbot_8: "Faqat youtube pleylistini bering"
+vcbot_9: "Meni hazillashyapsanmi?\nNima o'ynash kerak?"
+vcbot_10: "Chat Vc AUTH guruhlaridan olib tashlandi!"
+vcbot_11: "`Ovozli suhbat bot foydalanuvchilari roʻyxati olinmoqda...`"
+vcbot_12: "`Ushbu chatda ovozsiz ijro.`"
+vcbot_13: "`Ushbu chatda oʻynatish davom ettirildi.`"
+vcbot_14: "`Ushbu chatda ijro toʻxtatildi.`"
+vcbot_15: "Iltimos, qo‘shiq nomini ko‘rsating yoki video faylga javob yozing !"
+vcbot_16: "Chat Vc Auth ro'yxatida yo'q..."
+vcbot_17: "`Foydalanuvchining xabariga javob bering yoki uning identifikatori/foydalanuvchi nomini qo'shing...`"
+vcbot_18: "• Vc autentifikatsiya roʻyxati boʻsh.."
+vcbot_19: "Ushbu suhbatni allaqachon tasdiqlagan!"
+vcbot_20: "`Yuklash va konvertatsiya qilish...`"
+vcbot_21: "• Navbatda hech narsa yo‘q!"
+vcbot_22: "`Chatdagi barcha navbatlar tozalandi`"
+
+help_echo: "• {i} ececho <hech kimga javob bering> '\n   Javob qilingan foydalanuvchining avtomatik aks sado-ni ishga tushiring.\n\n• {i} Reedo <Hech kimga javob bering> '\n   Uni o'chiring\n\n• {i} lowchecho <Hech kimga javob bering> '\n   Ro'yxat olish."
+help_mediatools: "-\n\n• {i} mediainfo <media-ga javob bering> `\n   Bu haqda ma'lumot olish.\n\n• {i} aylanma <daraja / burchak> <Media-ga javob bering> `\n   Har qanday video / foto / ommaviy axborotni aylantiring ..\n   Eslatma: Videoni 90-yillar burchagi bo'lishi kerak"
+help_mute: "-\n\n• {i} MUTE <MSG / foydalanuvchi identifikatori> 'ga javob bering\n    Ovozli foydalanuvchi joriy chatda.\n\n• {i} indenke <msg / foydalanuvchi identifikatori> 'ga javob bering\n    Joriy chatda yoqimsiz foydalanuvchi.\n\n• {i} dhue <msg / foydalanuvchi identifikatori> `\n    MSG-ni o'chirish orqali hozirgi suhbatda.\n\n• {i} Bool <MSG / FAQAT SO'RA ID> '\n    Joriy suhbatda haddan tashqari duygan foydalanuvchi.\n\n• {i} TMute <Vaqt> <MSG / FOYDALANISHINGIZNI FOYDALANADI\n    S- soniya\n    M- daqiqa\n    h- soat\n    Dal\n    Muddali foydalanuvchi vaqt bilan hozirgi suhbatda."
+fsh_1: "** Saqlangan fayllar ro'yxati ::**"
+games_6: "** • Viktorinada 5 soniya ichida. **\n**• Daraja :** {}\n** • QS: ** {}"
+pinned_2: "Joriy chatda xabar yuborilgan xabar [bu erda] ({})."
+help_pmpermit: "-\n\n• {i} A 'yoki {i} tasdiqlang\n    Kimnidir bosh vazir bilan tasdiqlang.\n\n• {i} da yoki {i} rad qilmang\n    Kimnidir bosh vazirga rad eting.\n\n• {i} blok\n    Kimnidir to'sing.\n\n• {i} blok bloklandi`{i} barchasini blokdan chiqaring\n    Kimnidir oching.\n\n• {i} nolpm '\n    Foydalanuvchi xabarlarini foydalanuvchidan to'xtating.\n\n• {i} logpm '\n    Foydalanuvchidan kirishni boshlang.\n\n• i }earchive '\n    Yangi PMS arxivi.\n\n• {i} to'xtash joyi\n    Yangi PMS arxivini yozmang.\n\n• {i} ravshanligi\n    Barcha kabinalar.\n\n• {i} Ruxsat etilgan\n   Barcha tasdiqlangan PMSlarni ro'yxatlang."
+help_snips: "-\n\n• {i} AddSsip <Word> <Xabarga javob> '\n    Ma'ruzlangan so'zni snaypga tegishli xabar bilan qo'shing.\n\n• {i} remsnip <Word> `\n    Snip so'zini olib tashlang ..\n\n• {i} ro'yxati\n    Barcha snayplarni sanab bering.\n\n• Foydalanish:\n    `$ (SNIP so'zini)` Taqtosini oling."
+com_7: "'Biror narsa noto'g'ri ketdi"
+fsh_2: "** Fayl saqlangan! **\n\n** O'tish lozim: ** {}"
+help_12: "Ovozli chat Bot faol emas!.Setdb VCBOT-dan foydalaning!"
+help_fileshare: "-\n\n• {i} do'kon <Javob_to_message>\n   Javob qilingan xabarni / media-ni saqlang va ushbu faylga ulanishingiz mumkin, chunki sizning yordamchingiz orqali kirishingiz mumkin!\n\n• {i} zo'rlangan <saqlangan fayl> `` '\n    Saqlangan faylni o'chirish.\n\n• {i} Rahbarlar\n   Barcha saqlangan xabarlarni oling.\n\n• Saqlangan fayllarni IN chiziqda saqlash uchun 'Filestree' bilan yordamchingiz bilan birga bo'ling."
+help_fedutils: "-\n\n• {i} superfban <Foydalanuvchi / foydalanuvchi nomi> `` '\n    Fban, siz admin bo'lganingizdagi barcha oziqlanadigan odamni fban.\n\n• {i} superunfban <Foydalanuvchi / foydalanuvchi nomi bilan javob bering> `` '\n    FBAN, siz admin bo'lganingizdagi barcha oziqlangan odam.\n\nFab guruhini va oziq-ovqatni istisno qilish uchun Fedsni belgilang.\n\n• {i} fstat <Foydalanuvchi nomi / id / foydalanuvchiga javob\n    Rosedagi odamning oziq-ovqat statistikasini to'plang.\n\n• {i} fedinfo <(Feid)> `'\n    Berilgan Federatsiyaning federatsiyasini yoki o'zingiz egalik qilinganingizni, atirguldan tayyorlang."
+help_other: "-\n\n• {i} Yuboring <Foydalanuvchi ismi> <Javob / Turi> `'\n    Foydalanuvchi / chatga xabar yuboring.\n\n• {i} fwdreply <msg> `'ga javob bering\n    Uni shaxsiy yo'naltirish orqali birovning msg-ga javob bering.\n\n• {i} saqlang <Javob xabari> `'\n    Saqlangan xabarlar oynasiga yuborilgan ms-ni tejang.\n\n• {i} fsive <Javob xabari> `\n    Qayta yuborilgan xabarlar urilgan xabarlarga javob berdi."
+help_13: "Rasmiy qo'shimchalarni yuklash uchun '{}' condb 'sentdb"
+help_warn: "• {i} ogohlantirish <foydalanuvchiga javob bering> <sabab>\n    Ogohlantiradi.\n\n• {i} rezetware <Foydalanuvchi> `` '-ga javob bering\n    Barcha ogohlantirishlarni qayta o'rnatish.\n\n• {i} ogohlantiradi <foydalanuvchiga javob> '\n   Foydalanuvchining ogohlantirishlari ro'yxati.\n\n• {i} cetware <warnn sanash> |<taqiq / soqov / tepish>\n   Ogohlantirishlar sonini ogohlantirish uchun raqamni belgilang\n   '|'Belgilar taqiq / ovozsiz / tepish kabi harakatni qo'ying\n   Uning standart 3 to'pi\n   Misol: 'SetWarn 5 |ohang"
+usage: "** ⚙️ dyno foydalanish ⚙️ **:\n\n-> ** Dynodan foydalanish uchun ** {}}:\n  • ** {} h *** } m | ** }%] `\n-> ** Bu oyda dyoda soat kvotasi **:\n  • ** {} h *** } m | ** }%] `\n\n** Joriy disk maydoni **: {}}\n** ishlatilgan **: {}}\n** Bepul **: {}}\n\n** 📊 DateSeGe 📊 **\n** Yuklash **: {}}\n** pastga **: }}\n\n** CPU **: {}% '\n** RAM **: {}% '\n** Disk **: {}% `"
+help_blacklist: "-\n\n• {i} qora ro'yxat <Word / barcha so'zlar bo'sh joy bilan>\n    Ushbu chatda tanlab olingan so'zni qora ro'yxatga oling.\n\n• {i} regeblacklist <Word> `\n    Qora ro'yxatdan so'zni olib tashlang ..\n\n• {i} Courblacklist\n    Barcha qora izlangan so'zlarni ro'yxatlang.\n\n  'Agar biror kishi qora ro'yxatli so'zdan foydalansa, uning MSG o'chiriladi '\n  'Va u bu chatda ma'mur bo'lishingiz kerak"
+vct_1: "`Ovozli chat boshlandi ...`"
+help_utilities: "-\n\n• {i} kickMe ': Guruhni qoldiradi.\n\n• {i} sana: Qattiqni ko'rsating.\n\n• '{i}'\n    O'zingiz egalik qiladigan barcha foydalanuvchi nomlarini (kanallar / guruhlar) ro'yxatlang.\n\n• {i} statistikasi: profil statistikangizni ko'ring.\n\n• {i} paste - `to matn fayliga uzun matn / javob bering.\n\n• {i} info <Foydalanuvchi nomi / foydalanuvchi is / chatid>\n    Birovning msgiga javob bering.\n\n• {i} taklifi <Foydalanuvchi nomi / userid> `\n    Chatga foydalanuvchini qo'shing.\n\n• {i} rmbg <pic> `'ga javob bering\n    Ushbu rasmdan fonni o'chiring.\n\n• {i} Telegraf <Media / Matnga javob>\n    Telegrafga media / matnni yuklash.\n\n• {i} json <msg> `\n    Xabarni JSON kodlashini oling.\n\n• {i} xabariga javob bering <yoki <so'rovnoma> `\n    Javob qilingan taklif uchun 'ha' yoki 'yo'q' so'rovini yarating.\n\n• {i} iPAINFO <IPADDRAS> 'IP manzil haqida ma'lumot oling.\n\n• {i} CPY <Xabarga javob>\n   Javob qilingan xabarni formatlash bilan nusxalash. 24 soat ichida tugaydi.\n• {i} PST\n   Nusxalangan xabarni formatlash bilan joylashtiring.\n\n• {i} bosh barmog'i> Javob Fayl> 'Javob qilingan faylning eskizini yuklab oling.\n\n• {i} conmsg <xabarlar havolasi> `\n  Chosdan xabarlarni oldinga / nusxalash cheklovlari bilan oling."
+help_bot: "• {i} jonli{i} tiriklayin\n    Sizning botingiz ishlayotganligini tekshiring.\n\n• {i} ping '\n    Shicyidining javob berish vaqtini tekshiring.\n\n• {i} yangilash '\n    Agar yangilanish mavjud bo'lsa, o'zgartirilges-ni ko'ring.\n\n• {i} CMDS ''\n    Plagin nomlarini ko'rish.\n\n• {i} qayta ishga tushiring\n    Botingizni qayta ishga tushirish uchun.\n\n• {i} jurnallari (Sys) `\n    To'liq terminal jurnallarini oling.\n• {i} loglar uglerod\n    Karbonizatsiyalangan SYS-loglarni oling.\n• {i} Heroku\n   Heroku jurnallarining so'nggi 100 liniyasini oling.\n\n• {i} o'chirish '\n    Botingizni o'chiring."
+help_sudo: "-\n\n• {i} addsudo '\n    Foydalanuvchiga javob berish orqali sudo foydalanuvchilariga javob berish yoki <bo'sh joy> ajratilgan USP (lar) dan foydalanish orqali qo'shing\n\n• {i} Delsudo '\n    Foydalanuvchi foydalanuvchilariga javob berish orqali sudo foydalanuvchilarini olib tashlang yoki <bo'sh joy> ajratilgan UserID (lar) dan foydalaning\n\n• {i} `loadso '\n    Barcha sudo foydalanuvchilarni ro'yxatlang."
+help_fontgen: "• {i} shrift <shrift nomi>: <matn> `'\n    Matn uchun turli xil shriftlarni hosil qiling.\n\n• {i} shrift\n    Shriftlar ro'yxatini olish uchun"
+help_usage: "• {i} foydalanish\n    Umumiy foydalanishni oling.\n\n• {i} xalaqasi\n   Heroku statistikasini oling.\n\n• {i} foydalanish db '\n   Ma'lumotlar bazasini saqlash imkoniyatini olish."
+help_schedulemsg: "-\n\n• {i} jadvali <Matn / MSG> <Varx> `'ga\n    Vaqt o'tishi bilan siz ikkinchi raqam sifatida yoki 1 soat yoki 1M kabi foydalanishingiz mumkin\n    masalan.'{i}' Salom 100 'jadvali 100 soniyadan keyin MSG-ni etkazib beradi.\n    masalan.'Hello 1h' jadvali bir soatdan keyin MSG-ni etkazib beradi."
+vct_5: "'Taklif etildi {} foydalanuvchilar'"
+help_downloadupload: "-\n\n• {i} ul <yo'l / fayli>\n    Telegramda fayllarni yuklang.\n    Fayl nomidan oldin yoki undan keyin quyidagi dalillardan foydalaning:\n      oqim sifatida yuklash uchun '\n      `- - yuklashdan keyin faylni o'chirish uchun.\n      - - Thumb's eskizsiz yuklaydi.\n\n• {i} dl <fayl nomi (ixtiyoriy)>\n    Yuklab olish uchun faylga javob bering.\n\n• {i} yuklab olish <ddl> (| Fayl nomi) `\n    DDL-dan foydalanib yuklab oling.Agar berilmagan bo'lsa, fayl nomi."
+help_variables: "-\n\n• {i} oling var <o'zgaruvchan ism>\n   Ushbu o'zgaruvchan nomning qiymatini oling.\n\n• {i} turini <o'zgaruvchan ism>\n   O'zgaruvchan turini oling.\n\n• {i} db <tugmachasini oling> `\n   Ushbu kalitning DB qiymatini oling.\n\n• {i} kalitlarni oling\n   Barcha qizil kalitlarni oling."
+help_antiflood: "-\n\n• {i} plitzole <butun son\n    Selinni chatda sof toshtayapti.\n\n• {i} effflow\n    To'fon chegarasini suhbatdan olib tashlang.\n\n• {i} conford '\n    Chatning toshqin chegarasini oling."
+help_tools: "-\n\n• {i} aylanma '\n    Videoni bo'shatish uchun audio qo'shiq yoki GIF-ga javob bering.\n\n• {i} ls`\n    Katalog ichidagi barcha fayllarni oling.\n\n• {i} bots '\n    Serta havolasi bilan joriy chatda botqoqlarning sonini ko'rsatadi.\n\n• {i} hl <a Link>> <matnli ixtiyoriy> '\n    Havolani bo'shliq sifatida joylashtiradi.\n\n• {i} ID\n    ID raqamini olish uchun stikerga javob bering\n    Identifikatorini olish uchun foydalanuvchi javob bering\n    Javob bermasdan siz suhbatning guvohnomasini olasiz\n\n• {i} sg <Foydalanuvchiga javob bering> <Foydalanuvchi ismi> `'\n    Uning ismini javob bergan foydalanuvchi tarixini oling.\n\n• {i} tr <fold kodi> <(javob bering) xabar> `\n    Tarjima qilingan xabarni oling.\n\n• {i} Webshot <URL> `\n    Veb-sahifaning ekran rasmlarini oling.\n\n• {i} qisqa! <Url> <id - ixtiyoriy> '\n    har qanday urlni qisqartiring ..."
+help_webupload: "-\n\n• {i} Webwoadlash\n    Fayllarni boshqa serverda yuklang."
+help_profanityfilter: "-\n\n• {i} ecprofiyalik\n   Agar kimdir suhbatda yomon so'z yuborsa, unda bot bu xabarni o'chiradi.\n\n• {i} CompPrOnraft '\n   Kroucelar ro'yxatidan chatdan."
+cmda: " Buyruqlar mavjud"
+games_5: "Vaqt oralig'ini tanlang ..."
+games_3: "Qiyinchilik darajasini tanlang"
+help_imagetools: "-\n\n• {i} Chegara <Foto / Stiker-ga javob bering> `\n    Bu ommaviy axborot vositalari atrofida chegara yaratish ..\n    Ex - {i} Chegara 12,22,23`\n       - {i} Chegara 12,22,23; kengligi (sonida) `\n\n• {i} kulrang <har qanday ommaviy axborot vositasiga javob bering>\n    Uni qora nd oq qilish.\n\n• {i} rang <har qanday qora nd oq media-ga javob bering> `\n    Uni rangsizlantirish.\n\n• {i} toon <har qanday ommaviy axborot vositasiga javob bering>\n    Uni ko'tarish.\n\n• {i} Xavfsiz <Har qanday Media-ga javob bering>\n    Xavf ostida bo'lish.\n\n• {i} salbiy <har qanday ommaviy axborot vositasiga javob bering>\n    Salbiy tasvirni yaratish.\n\n• {i} Blur <Har qanday Media-ga javob bering>\n    Uni xiralashtirish uchun.\n\n• {i} Quad <har qanday ommaviy axborot vositasiga javob bering>\n    vorteks yaratish.\n\n• {i} oyna <har qanday ommaviy axborot vositasiga javob bering>\n    Oynada rasm yaratish.\n\n• {i} flip <har qanday ommaviy axborot vositasiga javob bering>\n    Uni siljitish uchun.\n\n• i {i} Sketch <Media-ga javob bering>\n    Uning eskizini chizish.\n\n• {i} ko'k <har qanday ommaviy axborot vositasiga javob bering>\n    shunchaki salqin.\n\n• {i} CSAPLE <Rang nomi / Rang kodi>\n   Masalan: {i} csple Red`\n             {i} CSAM # FFFFFF '\n\n• {i} pixelator <Javob Rasm> `'\n    Pikselli tasvirni yarating .."
+help_instagram: "-\n\n• {i} Instadl <Instagram url> `\n  Instagram Media ... `\n\n• {i} Instadata <Foydalanuvchi nomi> `\n  'Instagram-ni kimdir yoki o'z-o'zidan oling\n\n• {i} perstul <Javob / Foto> <sarlavha> `\n  - Instagram-ga ommaviy axborot vositalarini yuklang ... `\n\n• {i} iigtv <video> <sarlavha> `` '\n  'Media OGTV ...'\n\n• {i} Reyts <Video> <sarlavha> `'\n  'Media Media Instagram g'ildiragiga yuklang ...'\n\n• Sizning yordamchisingiz bilan savol bering\n   Uy sahifasining xabarlarini olish uchun ...\n\n• 'insta_username' va 'insta_password' ni to'ldiring\n  Foydalanishdan oldin .."
+help_fakeaction: "-\n\n• {i} ftaping <vaqt / sek-da> `'\n    'Joriy suhbatda soxta yozishni ko'rsating.'\n\n• {i} Facyo <vaqt / sek-da>\n    'Joriy suhbatda soxta yozish harakatlarini ko'rsating.'\n\n• {i} fkideo <vaqt / sek-da>\n    'Joriy suhbatda soxta video harakatlarini ko'rsating', -\n\n• {i} fgame <vaqt / sek-da> `\n    'Joriy suhbatda soxta o'yin o'ynashni ko'rsating.'\n\n• {i} fsticker <vaqt / sek-da>\n    'Joriy suhbatda soxta stikerni tanlang'.\n\n• {i} bo'shashish <vaqt / sek-da>\n    'Joriy suhbatda soxta joylashish harakatlarini ko'rsating.'\n\n• {i} fcontact <vaqt / sekis> `` '\n    'Joriy suhbatda soxta aloqalarni tanlang'.\n\n• {i} aşınma <vaqt / sekis> `'\n    'Joriy suhbatda soxta video xabarlar harakatlarini ko'rsating.\n\n• {i} ffoto <vaqt / sek-da> `\n    'Joriy suhbatda soxta fotosuratni ko'rsating', - deb\n\n• {i} fdokument <vaqt / sek-da>\n    'Joriy suhbatda soxta yuborish hujjatini ko'rsating', -"
+help_converter: "-\n\n• {i} ceterver <gif / img / stiker / veb-> `'\n    Uni GIF / Image / veb-sayt / normal stikerga aylantirish uchun OAVga javob bering.\n\n• {i} doc <FileneMeemext>\n    Matn MSG-ga javob bering faylda saqlang.\n\n• {i} ochilgan\n    Matnni ochish uchun faylga javob bering.\n\n• {i} 0 kengayish bilan <fayl nomini o'zgartiring\n    Faylni qayta nomlang\n\n• {i} eskiz <Rasm / Thumbnail Fayl> `'ga javob bering\n    Faylingizni shaxsiy eskizingiz bilan yuklang."
+help_autoban: "• {i} Autokick <on / Off>\n    yoqish - yoqish.\n    o'chirish - o'chirish.\n    Guruhdan avtomatik ravishda yangi foydalanuvchilar boshlanadi.\n\n• {i} cban '\n    AutoBanning ishlatilgan chatda kanal sifatida yuborilishini yoqish / o'chirish.\n\n• {i} addwl <foydalanuvchi nomi> `\n   Kanal kanaliga kanal qo'shing.\n\n• {i} repwl <foydalanuvchi nomi> `'\n   Kanalban oqellik kanalidan kanalni olib tashlang.\n\n• {i} №} Ro'yxatwl ': Barcha oqelistlar kanallarini sanab bering."
+help_button: "-\n\n• «{i} tugmasini bosing <tugmachasini bosing\n   Siz rasmga ham javob berishingiz mumkin\n\nFormat: - {i} tugmasi Hey u erda!@UseLtridid 😎.\n[shicyXcode |T.Me/shicyXcode SOCSUPport |T.Me/shicyXcode |bir xil]\n[Menycrido |t.me/shicyXcode] `'"
+help_videotools: "-\n\n• {i} namunalari <sekundlardagi davomiyligi> `'\n   Videoning qisqa namunasini yaratadi ..\n\n• {i} vshototlar <kadrlar soni> `'\n   Videoning skrinshotini yaratadi ..\n\n• {i} VTRIM <START Vaqt, - <oxirgi vaqt> soniyada\n    Uzoq vaqt davomida videoni ekinzor .."
+help_words: "-\n\n• {i} ma'nosi <Word> `\n    So'zning ma'nosini oling.\n\n• {i} sinonimi <Word> `\n    Barcha sinonimlarni oling.\n\n• {i é} Anymon <Word> `\n    Barcha antonimlarni oling.\n\n• {i} UD <Word> `\n    Urbancancadan so'zni rad etish."
+help_core: "-\n\n• {i} <plaginga javob bering\n    Plaginni o'rnatish uchun,\n  `{i} o'rnatish f`\n    Majburlash uchun.\n\n• {i} o'chirish <plagin nomi> `'\n    Tushirish va plaginni olib tashlash.\n\n• {i} yuklang <plagin nomi> `'\n    Yuklab olingan norasmiy plaginni yuklash uchun.\n\n• {i} Yuklash <plagin nomi> `'\n    Norasmiy plaginni tushirish.\n\n• {i} yordami <plagin nomi> `'\n    Har bir plagin uchun sizga yordam menyusini ko'rsatadi.\n\n• {i} getaddondonlar <kod> `lov\n    Ushbu xom havolani yuklash plaginlarini yuklang."
+help_globaltools: "-\n\n• {i} gb <Javob Foydalanuvchi / Foydalanuvchi nomi> `\n• {i} ungran '\n    Global miqyosda taqiq /\n\n• {i} gstat <Foydalanuvchi / UserID / foydalanuvchi nomi> `` '\n   Foydalanuvchi GBNET-ni tekshiring.\n\n• {i} Listgban ': Barcha g yig'ilgan foydalanuvchilarni ro'yxatlang.\n\n• {i} GMUE | `i }tleuth <Javob Foydalanuvchi / Foydalanuvchi nomi>\n    Yumshoq / global miqyosda yoqimsiz.\n\n• {i} GQIC <Javob / foydalanuvchi nomi> 'global miqyosda to'p USE'\n• {i} gick <matn / javob> 'global miqyosdagi ms grsg'\n\n• {i} gadminscast <Matn / Javob> 'Ma'murlaringiz Chats' dagi global translyatsiya\n• {i} gucast <Matn / javob> 'global miqyosda MSG-ni xabarlarni yuboring\n\n• {i @ @ @ lblacklist <chat id / foydalanuvchi nomi / hech narsa (joriy chat uchun) `'\n   Qora ro'yxatga chat qo'shing va global efirni e'tiborsiz qoldiring.\n• {i} lickllavristi 'Blacklistdan suhbatni olib tashlang, - dedi\n\n• {i} GPROMOT <Foydalanuvchi> <kanal / guruh / barcha> <martaba> `` '-ga javob bering\n    Siz admin bo'lgan joyda dunyo miqyosida\n    - Faqat guruhlar / kanallarda / barchasini reklama qilishni sozlash.\n    ER- GPPOMOT GROUP BASTERS ~ foydalanuvchini barcha GRPS-ni targ'ib qiladi.\n        `promote @USername Hammasi SAR 'ni barcha guruh va kanallarda targ'ib qiling\n• {i} Gdemots '- Globalal ravishda taqsimot foydalanuvchi"
+games_4: "Savollarning sonini tanlang .."
+help_filter: "-\n\n• {i} addfilter <Word> <Xabarga javob bering> '\n    Javob qilingan xabar bilan bog'liq filtr sifatida ishlatilgan so'zni qo'shing.\n\n• {i} refilter <Word> `\n    Filtrni olib tashlang ..\n\n• {i} `lecilter '\n    Barcha filtrlarni ro'yxatlang."
+fsh_4: "** Hech qanday fayl saqlanmadi! **"
+help_afk: "-\n\n• {i} afk <ixtiyoriy sabab>\n    AFK klaviaturadan uzoqda,\n    Shundan so'ng, agar kimdir tegsa yoki xabarlar bo'lsa, u botdan avtomatlashtirilgan javobni oladi.\n\n    (Eslatma: AFK xabarlarida AFK xabarlarini `{i} afsona ({i} afsonalari>) bilan javob berish orqali ommaviy axborot vositalarida o'rnating."
+help_broadcast: "• {i} advch <id / ro'yxatdan o'tish / yo'q> yo'q>\n    Ma'lumotlar bazasiga chat qo'shing.Agar hech qanday guvohnoma bo'lmasa, joriy Chat qo'shadi.\n\n• {i} SOPCH <Hammasi / id / yo'q / yo'q>\n    Ko'rsatilgan chatni olib tashlaydi (agar hech biri ko'rsatilmagan bo'lsa) yoki barcha chats bo'lsa.\n\n• {i} ni uzating <msg> `'\n    Javob berilgan xabarni ma'lumotlar bazasidagi barcha chatlarga yuboring.\n\n• {i} oldinga <msg> `'ga javob bering\n     Xabarni ma'lumotlar bazasidagi barcha chatlarga yo'naltiring.\n\n• {i} loadchanellar\n    Qo'shilgan barcha qo'shiqlarning ro'yxatini olish."
+help_resize: "-\n\n• {i} Hajmi <OAVga javob bering> `\n   Uning hajmini olish uchun.\n\n• {i} o'lchamlari <raqam> <raqam> `'\n   X, y o'qida tasvirni o'zgartirish uchun.\n   masalan.{i} 690 960 'ni o'zgartiring"
+shutdown: "Xayr {}.\n'O'chirish ...`"
+help_giftools: "• {i} invertgif '\n  Gif teskari (salbiy) qiling.\n\n• {i} bwgif '\n  Gif qora va oq rang bering\n\n• {i} RVGIF '\n  Gifni teskari\n\n• {i} vtog '\n  Videoga javob bering, u GIF yaratadi\n  Gif uchun video\n\n• {i} gif <so'rovi>\n   So'rovda video yuborish."
+help_vctools: "-\n\n• i }lavc '\n    Guruhga qo'ng'iroq qilishni boshlang.\n\n• {i} bekatvc '\n    Guruhda guruh qo'ng'iroqlarini to'xtating.\n\n• {i} vctitle <SULT> `\n    Sarlavha guruhiga qo'ng'iroqni o'zgartiring.\n\n• {i} vcinvite '\n    Guruhning barcha a'zolarini guruh qo'ng'iroqlarida taklif qiling.\n    (Siz qo'shilishingiz kerak)"
+vct_4: "`Ovozli chat to'xtadi ...`"
+help_extra: "-\n\n• {i} del <Xabarga javob bering> '`'\n    Javob qilingan xabarni o'chirib tashlang.\n\n• {i} tahrirlash <yangi xabar> `'\n    So'nggi xabaringizni tahrirlang yoki msg.\n\n• {i} <Xabarga javob bering\n    Missiya javob berdi / Media.\n\n• {i} javob\n    Javob berish uchun oxirgi yuborilgan MSG ga javob bering."
+vct_6: "Hech qanday ma'lumot topilmadi!"
+help_audiotools: "✘ Buyurtmalar mavjud -\n- .Makevoice <Audio> `'ga javob bering\n   audio tomonidan ovozli eslatma yaratadi.\n\n- Vaqtdan> - <vaqt uchun>\n   ma'lum vaqt bo'yicha audio tahrirlash.\n   Vaqt bir necha soniya ichida bo'lishi kerak.'.TRATIM 50-70'\n\n'.Extrracraudioudio <Media-ga javob bering>`\n   Undan audio olish uchun."
+help_chatbot: "-\n\n• {i} addui <Foydalanuvchi / foydalanuvchi nomi / foydalanuvchi ismi> `\n   Ushbu foydalanuvchiga javob berish uchun AI ChotBot qo'shing.\n\n• {i} eMAi <Foydalanuvchi / foydalanuvchi nomi / foydalanuvchi ismi> `\n   AI ChatBotni olib tashlang.\n\n• {i} repay <Foydalanuvchiga javob berish / xabar berish> '\n   Foydalanuvchiga AI tomonidan xabar bilan javob bering.\n\n• {i} Lourii '\n   Hozirgi AI qo'shma foydalanuvchilar ro'yxati."
+help_ziptools: "• {i} zip <faylga javob bering> '\n    Javob qilingan faylni zip\n    ZIP-da parolni o'rnatish uchun: {i} zip <parol> faylga javob\n\n• {i} noaniq <ZIP fayliga javob bering> '\n    javob bergan faylni oching.\n\n• {i} Azip <Faylga javob bering> '\n   Paketni yuklash zipini uchun partiyaga qo'shish\n\n• {i} dohip '\n   u ({i} Azip 'dan qo'shilgan fayllarni yuklang\n   Parolni o'rnatish uchun: {i} dohip <parol> `"
+help_devtools: "-\n\n• {i} Bash <CMDS> `` '\n• {i} Bash -c <cmds> `buyruq chiqishi sifatida uglerod tasviri.\n    Telegrammada Linux buyruqlarini ishga tushiring.\n\n• {i} baho <kodi> `\n    Python buyruqlarini telegrammada baholang.\n    Yorliqlar:\n        mijoz = bot = voqea.\n        e = voqea\n        p = bosib chiqarish\n        Javob = kuting.get_report_mesge ()\n        chat = voqea.chat_id\n\n• {i} cpp <kod> `\n    Telegram-dan C ++ kodini ishga tushiring.\n\n• {i} sysinfo '\n    Tizim ma'lumotlarini ko'rsatadi."
+help_beautify: "-\n\n• {i} Carbon <Matn / MSG / Hujjatga javob berish>\n    Standart sozlamalar bilan matnni uglerod.\n\n• {i} rcarbon <matn / MSG / Hujjatga javob berish>\n    Tasodifiy BG ranglari bilan matnni karbonat.\n\n• {i} ccarbone <Rang> <Matn / MSG / Hujjatga javob bering> Hujjatga javob bering\n    Bg ranglari bilan matnni karbonat.\n\n• {i} rayso <Opt-mavzu> <Matn> / <Xabarga javob berish> '\n  {i} Rayso ro'yxati - 'Mavzular ro'yxati'."
+help_chats: "-\n\n• {i} delchat <Ixtiyoriy- foydalanuvchi nomi / id> `\n    Ushbu CMD guruhini o'chirish.\n\n• {i} getlink '\n• {i} getlink r '- adminni tasdiqlash bilan bog'laning'\n• {i} getlink r sarlavhasi_ Ma'nati Link Sarlavhasi bilan tasdiqlash\n• {i} getlink 10 - 'Yangi havolani foydalanish' limiti\n    Ushbu CMD-ning Guruhining havolasini oling.\n\n• {i} yaratish (g | c) <guruh_name>;<ixtiyoriy-foydalanuvchi nomi>\n    Maxsus nom yarating.\n    g - megagroup / supergroup\n    b - kichik guruh\n    C - kanal\n\n• {i} setgicic <fotosuratga javob bering> <Chat Foydalanuvchi nomi> `'\n    Profil rasmini tanlang.\n\n• {i} DelgGIP <Chat Foydalanuvchi nomi - `` '\n    Profil rasmini o'chirish.\n\n• {i} tug'ilmaganligi\n    Guruhning barcha a'zolari.\n\n• {i} RMusers '\n    Xususan foydalanuvchilarni olib tashlang."
+fsh_3: "`O'rinayotgan havola qilish uchun xabarga javob bering! '"
+help_channelhacks: "↑ `{i} Shift <Kanaldan> |<Kanal>\n     Bu barcha eski xabarni A kanalidan B-kanalga o'tkazadi.\n      (U foydalanuvchi nomi yoki kanalning identifikatoridan foydalanishingiz mumkin)\n      Masalan: {i} Shift @ABc |@ xyz\n      [Izoh - Bu ('|') belgisi Nessesary]\n\nHar qanday yangi xabarni avtomatik ravishda joylashtirish / boshqa yangi xabarni har qanday xizmat kanaliga yo'naltirish uchun.\n\n   {i} asource <kanalning foydalanuvchi nomi yoki id> `\n      Ushbu ma'lumotlar bazasiga manbali kanal qo'shing\n   `{i} dsource <kanalning foydalanuvchi nomi yoki id>`\n      Bu ma'lumotlar bazasidan manba kanallarini olib tashlang\n   `{i} Ro'yxatSoursource <Kanalning foydalanuvchi nomi yoki ID>`\n      Kanallar ro'yxatini ko'rsatish\n\n\n   i Â} Adest <kanalning foydalanuvchi nomi yoki id> `\n      Ushbu ur kanallarni ma'lumotlar bazasiga qo'shing\n   {i} DDest <kanalning foydalanuvchi nomi yoki id> `\n      Bu ma'lumotlar bazasidan bo'lgan ur kanallarini olib tashlang\n   `{i É} ExchAnd <kanalning foydalanuvchi nomi yoki id>`\n      Ur kanallarining ro'yxatini ko'rsatish\n\n   'Siz ma'lumotlar bazasida ko'plab kanallarni o'rnatishingiz mumkin'\n   'Avtomatik pochtadan foydalanish uchun {i} SETDB AUPOST Haqiqiy'"
+help_asstcmd: "-\n\n• {i} adcmd <Yangi CMD> <Javob> `'\n   Bu sizning yordamchingiz uchun yangi CMD ni o'rnatadi.\n\n• {i} remicmd <cmd nomi> `'\n   Bu sizning CMD-ni olib tashlaydi.\n\n• {i} `}` lingcmd\n   Sizning barcha shaxsiy CMD-ning ro'yxatini olish uchun."
+help_search: "-\n\n• {i} Saavn <qidirish so'rovi>\n    Saavandan qo'shiqlarni yuklab oling.\n\n• {i} google <so'rov> `\n    Google qidiruvi uchun.\n\n• {i} github <foydalanuvchi nomi> `'\n    Foydalanuvchilarning Github profilidan to'liq ma'lumot oling.\n\n• {i} img <so'rovlar>\n  `{i} img <so'rovlar>;<Natijalar yo'q> `\n    Rasmlarni qidirish uchun.\n\n• {i} teskari\n    Uning sousini topish uchun rasm yoki stikerga javob bering."
+help_calculator: "-\n\n• {i} CAL '- inline kalkulyator"
+clan_5: "Ushbu chatda toza harakatlar allaqachon yoqilgan."
+help_notes: "-\n\n• {i} Admnote <Word> <Xabarga javob> '\n    Javob berilgan xabar bilan ishlatilgan chat-da qaydni qo'shing va tanlab oling.\n\n• {i} repline <Word> `\n    Izohni ishlatilgan chatdan olib tashlang.\n\n• {i} reklama ro'yxati\n    Barcha notalar ro'yxati.\n\n• Foydalanish:\n   Guruhda eslatmalarni o'rnating, shunda hamma undan foydalanish mumkin.\n   `` # (Eslatma kalit so'zi) `uni olish uchun"
+vct_3: "A'zolarni ovozli chatga taklif qilish ... `"
+help_qrcode: "-\n\n• {i} QRCode <matn / matnga javob>\n   'QRCode' matnini yaratadi\n\n• {i} addqr <Javob Rasm> <Matn> `'\n   'SMS-ni o'zgartiring va uni rasmga qo'shing'\n\n• {i} QRDECOD <QRCode> 'ga javob bering\n   - QRCode-ni dekodlaydi."
+games_2: "Turkumni tanlang!"
+games_1: "O'yinni tanlang"
+help_tag: "-\n\n• {i} etal '\n    Chatning eng yaxshi 100 a'zosi.\n\n• {i} Tagadmins`\n    Bu chatning yorliqlari.\n\n• {i} Tagadoning\n    Bu chatning yorlig'i egasi\n\n• {i} Tegboots '\n    Bu chatning yorliqlari.\n\n• {i} tagec`ric`ic\n    So'nggi paytlarda faol a'zolar.\n\n• {i} dagon\n    Onlayn a'zolar Onlayn a'zolar (faqat maxfiylik bo'lsa).\n\n• {i} TAGOFFF ''\n    Yorliqlar oflayn a'zolari (faqat maxfiylik bo'lsa)."
+help_greetings: "-\n\n---- xushbichim ----\n• {i} setweline <xabar / xabarga javob> '\n    Hozirgi suhbatda Xalqaro xabar xabarini o'rnating.\n\n• {i} aniqlik\n    Joriy suhbatda qabulni o'chiring.\n\n• {i} getweline '\n    Javobni joriy chatda oling.\n\n---- Xayriyatlar ----\n• {i} cetgoooowye <xabar / xabarga javob> '\n    Hozirgi suhbatda xayrlashish xabarini o'rnating.\n\n• {i} theedgoowye\n    Hozirgi suhbatda xayrlashishni o'chiring.\n\n• {i} getGoodbye\n    Hozirgi suhbatda xayrli xabarni oling.\n\n• {i} 'Kengaymalari'\n    Guruhlaringizda a'zolarni urish uchun rahmat stikerni yuboring."
+help_stickertools: "-\n\n• {i} Yo'q [jonli stikerga javob>\n    Stikerni yo'q qilish.\n\n• {i} mayda <media-ga javob bering> `\n    Mayda stikerlar yaratish.\n\n• {i} kang <rasm / stikerga javob bering> `'\n    Kang stiker (sizning paketingizga qo'shing).\n\n• {i} packkanng <paket nomi> `'\n    Kang to'liq stiker (maxsus ism bilan).\n\n• {i} atrofida har qanday Media>\n    Dumaloq stikerni qazib olish."
+help_locks: "-\n\n• {i} qulf <msgs / Media / stiker / GIF / GIF / GIF / O'YINLAR\n    Ishlatilgan guruhda ishlatilgan sozlamani qulflang.\n\n• {i} qulfini ochish <msgs / Media / Gif / GIF / GIF / O'YIN / SAVOLLAR / TARMOQLAR\n    Ishlatilgan guruhda ishlatilgan sozlamani oching."
+help_polls: "-\n\n• {i} so'rov <savol>;<variant>;<variant> `\n    Anonim so'rovni berilgan variantlar bilan oling\n\n• {i} so'rov <savol>;<variant>;<variant> | | |<tip> `\n    So'rovni kerakli tur bilan belgilang!\n    turi 'bir nechta' yoki 'bir nechta' yoki 'viktorina' turidan iborat bo'lishi kerak\n\n• {i} so'rov <savol>;<variant>;<variant> | | |Viktorin_ <javobno> `'\n    Viktorinani toping, u to'g'ri javob beradigan variantning raqami"
+help_cleanaction: "-\n\n• {i} Adsuppingiz\n    Keling, barcha yaqinlashib kelayotgan harakat MSG, kimdir qo'shilgan / chap / pin va hk.\n\n• {i} ComplePON ''\n    Ma'lumotlar bazasidan suhbatni olib tashlang.\n\n• {i} listclean ''\n   Uning faollashtirilgan joylari ro'yxatini olish uchun."
+vct_2: "** 'OW {}' ga muvaffaqiyatli o'zgartirilgan"
+help_unsplash: "-\n\n• {i} SETPERE <Qidiruv so'rovi>;<pics yo'q>\n    Rasmni qidirish."
+help_misc: "-\n\n• {i} eod '\n    'Bugungi kunni oling'\n\n• {i} pntrst <Link / ID> `\n    Pinterest pinlarni yuklab oling va yuboring\n\n• {i} gadget <qidirish so'rovi> `\n    Teregrammadan Gadget qidirish.\n\n• {i} tasodifiyuser '\n   Tasodifiy foydalanuvchi haqida tafsilotlarni yarating.\n\n• {i} ASCII <Javob Rasm> `\n    Javob qilingan rasm HTML-ga aylantiring."
+help_profile: "-\n\n• {i} setname <Ism // Familiya // Familiya> `` '\n    Profil ismingizni o'zgartiring.\n\n• {i} cetbio <bio> `'\n    Profil Bioingizni o'zgartiring.\n\n• {i} setiping <pic> `'ga javob bering\n    Profil rasmingizni o'zgartiring.\n\n• {i} delpfp <n> (ixtiyoriy) `\n    Bitta profil rasmini o'chiring, agar hech qanday qiymat berilmasa, boshqa rasmlarni o'chiring.\n\n• {i} poto <foydalanuvchi nomi> `\n    Agar mavjud bo'lsa, chat / foydalanuvchi rasmini yuklang."
+help_database: "-\n\n• ** Ma'lumotlar bazasi buyruqlari, agar siz nima ekanligini bilmasangiz, ishlatmang. **\n\n• {i} SETDB tugmasi |qiymati\n    Ma'lumotlar bazasida qiymatni belgilang.\n    E.G:\n    `{i} setdb salom\n    {i} setdb salom u erda |Bu erda shicy\n    `{i} seldb - ekstrend o'zgaruvchisi yoki {i} o'zgaruvchan qiymat 'DB ning chiqish qiymatlariga qiymatni qo'shish uchun.\n\n• {i} Deldb Keyx\n    Db tugmachasini o'chirish.\n\n• {i} RendB Esc Esce Mauname |Yangi tugmacham\n    Asosiy ismni yangilang"
+help_admintools: "-\n\n• .Promote <Foydalanuvchi / UserID / Foydalanuvchi nomi>  '\n• '.demot'\n    Suhbatda foydalanuvchini targ'ib qilish / taqsimlash.\n\n• .ban <Foydalanuvchi / foydalanuvchi nomi> <sabab>\n• .banban\n    Suhbatdan foydalanuvchini Ban / Nowan.\n\n• .KIK <Foydalanuvchi / foydalanuvchi nomi> <sabab>\n    Foydalanuvchini suhbatdan teping.\n\n• '.pin <Xabarga javob bering>'\n    Xabarni chatga yuboring\n• '\n• .HackPin (barchasi) <Xabarga javob>\n    Suhbatda xabarlarni chiqarib oling.\n\n• '.pnizatsiya qilindi\n   Mavjud suhbatda xabar oling.\n• '.ListPinnited'\n   Barcha xabarlarni joriy chatda oling\n\n• ..autodelete <24 soat / 1m / Off>\n   Televizordagi avtomatik o'chirishlarni yoqish.\n\n• '.Purge <Xabarga javob bering>'\n    Javob qilingan xabardan barcha xabarlarni poklang.\n\n• '.Purgeme <Xabarga javob>\n    Faqat javoblaringizni javob etilgan xabardan tozalash.\n\n• '.purgeaLel'\n    Javob qilingan foydalanuvchi msgs-ni o'chirib tashlang."
+help_logo: "-\n\n• {i} logotip <TEXT> `\n   Ushbu matnning logotipini yarating\n   Yoki rasmga javob berish, unga matn yozish.\n   Yoki bu shrift bilan yozish uchun shrift fayliga javob bering."
+help_specialtools: "-\n\n• {i} wspr <foydalanuvchi nomi> `'\n    Maxfiy xabarni yuboring ..\n\n• {i} q <rang-ixtiyoriy> '`'\n• {i} Q @ Foydalanuvchi nomi\n• {i} q <rang-ixtiyoriy> '`'\n• {i} Q: 'Bir nechta tirnoq'\n    Tirnoqlarni yarating ..\n\n• {i} stiker <so'rovlar>\n    Stikerlar ur istagi bo'yicha ..\n\n• {i} glaudio <audio> 'ga javob bering\n    O'zingiz xohlagan videoni / gifga qo'yish uchun Audio yuklab oling.\n\n• {i} AddAudio <video / gif> `\n    U yuqoridagi audio javobni javob berdi video / gifga qo'yadi.\n\n• {i} dob <Tug'ilgan sana>\n    Faqat DD / MM / YY formatini kiriting (masalan, 01/01/1999).\n\n• {i} devor <so'rov> `'\n    HD fon rasmini qidirish bo'yicha qidirish .."
+
+py_d2: "'To'liq sudo foydalanuvchi' kerak ... '"
+ast_4: "Mavjud tillar ro'yxati."
+py_d8: "Ushbu suhbatda ommaviy axborot vositalari yoki stikerga ruxsat berilmaydi."
+py_d3: "'Buni guruh / kanalda ishlating."
+py_d5: "'Men admin emasman"
+py_d6: "Ushbu buyruq Bot tomonidan ishlatilmaydi!"
+py_c1: "Noto'g'ri sessiya.Pastingni to'g'ri nusxalash!"
+py_d4: "** ishlab chiqaruvchisi cheklangan! **\nAgar bu nima ekanligini bilsangiz va davom ettirishni, undan foydalanishni xohlayman\n{{} setdb i_dev rost.\n\nBu xavfli bo'lishi mumkin."
+py_d1: "Siz hozir ushbu buyruqdan foydalana olmaysiz.Ushbu botning aloqa egasi!"
+py_c2: "Hech qanday sessiya topilmadi.Chiqish ..."
+py_c3: "Sizning VC_SESSION muddati tugadi.Redis-dan VC_SESSION ni o'chirish ...\nVC hisobidan ovoz / video chat-foydalanish uchun uni yangilash / o'zgartirish ..."
+py_d7: "Suhbat allaqachon davom etmoqda, qaytgan bir vaqtning o'zida qayta urinib ko'ring."
+
