@@ -1,0 +1,5 @@
+build: 
+  docker:
+      shicy: Dockerfile
+run:
+   shicy: bash start
