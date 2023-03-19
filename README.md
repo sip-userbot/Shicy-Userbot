@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/e7e2726841c3d5551555a.mp4">
+  <img src="https://telegra.ph/file/83f249f03c3145c9089b3.jpg">
 </p>
 
 👩‍💻 Shicy-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
