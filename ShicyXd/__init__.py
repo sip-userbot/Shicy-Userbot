@@ -143,7 +143,7 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "ShicyXCode")
+GROUP = os.environ.get("GROUP", "ShicyyXCode")
 CHANNEL = os.environ.get("CHANNEL", "ShicyxC0d")
 
 # Heroku Credentials for updater.
