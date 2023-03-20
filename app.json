@@ -45,6 +45,9 @@
       "url": "heroku/python"
     },
     {
+      "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+    },
+    {
       "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     }
   ],
