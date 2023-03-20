@@ -17,7 +17,7 @@
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy]"https://heroku.com/deploy?template=https://github.com/sip-userbot/Shicy-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 
 ## Disclaimer
 
