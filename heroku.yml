@@ -1,5 +1,5 @@
 build: 
   docker:
-      shicy: Dockerfile
+      nande: Dockerfile
 run:
-   shicy: bash start
+   nande: bash start
