@@ -1,7 +1,7 @@
 import sys
 
 from ShicyXd import DEVS, LOAD, LOGS, NO_LOAD
-from ShicyXd.Shicy._baseyins import ShicyDB
+from ShicyXd.shicy._baseyins import ShicyDB
 
 adB = ShicyDB()
 
