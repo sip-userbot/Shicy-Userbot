@@ -48,7 +48,7 @@ load_dotenv("config.env")
 LOOP = get_event_loop()
 StartTime = time.time()
 repo = "https://github.com/sip-userbot/Shicy-Userbot"
-branch = repo.active_branch.name
+branch = "Utama"
 
 # Global Variables
 COUNT_MSG = 0
