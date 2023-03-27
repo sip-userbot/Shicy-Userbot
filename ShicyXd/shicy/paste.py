@@ -2,8 +2,8 @@ import json
 
 import requests
 
-from shicyXd import BOTLOG_CHATID
-from shicyXd.shicy.logger import logging
+from ShicyXd import BOTLOG_CHATID
+from ShicyXd.shicy.logger import logging
 
 LOGS = logging.getLogger("ShicyUserBot")
 
