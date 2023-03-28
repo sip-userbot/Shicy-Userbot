@@ -84,7 +84,6 @@ vcsi
 wand
 wget
 wikipedia
-wordcloud==1.8.2.2
 youtube-dl
 youtube-search
 youtube-search-python==1.4.9
