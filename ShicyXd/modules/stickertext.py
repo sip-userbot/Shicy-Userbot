@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 from ShicyXd import CMD_HANDLER as cmd
 from ShicyXd import CMD_HELP
 from ShicyXd.shicy import shicy_cmd, eod, eor
-from Stringshicy import get_string
+from Stringchiy import get_string
 
 
 @shicy_cmd(pattern="stick(.*)")
