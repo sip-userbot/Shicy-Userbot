@@ -4,7 +4,7 @@ from telethon.utils import get_display_name
 from ShicyXd import CMD_HANDLER as cmd
 from ShicyXd import CMD_HELP
 from ShicyXd.shicy import shicy_cmd, eor
-from ShicyXd.shicy._basechiy import shicyDB
+from ShicyXd.shicy._basechiy import ShicyDB
 from ShicyXd.modules.sql_helper.warn_db import add_warn, reset_warn, warns
 from Stringchiy import get_string
 
