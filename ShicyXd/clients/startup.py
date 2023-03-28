@@ -10,7 +10,7 @@ from ShicyXd import (
     LOGS,
     LOOP,
     STRING_SESSION,
-    Shicyblacklist,
+    blacklistShicy,
     bot,
     tgbot,
 )
@@ -46,7 +46,7 @@ def multishicy():
             LOGS.info(
                 f"STRING_SESSION detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——"
             )
-            if user.id in blacklistshicy:
+            if user.id in blacklistShicy:
                 LOGS.warning(MSG_BLACKLIST.format(name, version))
                 sys.exit(1)
         except Exception as e:
