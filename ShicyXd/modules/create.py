@@ -2,7 +2,7 @@
 
 from telethon.tl import functions
 
-from ShiyXd import CMD_HANDLER as cmd
+from ShicyXd import CMD_HANDLER as cmd
 from ShicyXd import CMD_HELP
 from ShicyXd.shicy import shicy_cmd, eor
 from Stringchiy import get_string
