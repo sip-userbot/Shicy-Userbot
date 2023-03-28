@@ -1,4 +1,4 @@
-from ShicyXd import DEVS, WHITELIST, blacklistshicy
+from ShicyXd import DEVS, WHITELIST, blacklistShicy
 from ShicyXd.events import register
 from ShicyXd.shicy import shicy_cmd, chataction, get_user_from_event
 from Stringchiy import get_string
