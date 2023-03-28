@@ -12,7 +12,7 @@ from ShicyXd.shicy import (
     eor,
     get_user_from_event,
 )
-from Stringyins import get_string
+from Stringchiy import get_string
 
 
 @shicy_cmd(pattern="sg(u)?(?:\\s|$)([\\s\\S]*)")
