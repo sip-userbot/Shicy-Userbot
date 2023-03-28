@@ -9,7 +9,7 @@ from ShicyXd.shicy.pastebin import PasteBin
 from Stringchiy import get_string
 
 
-@shicy_cmd(patternlk mlm  a .Userbotm,,="paste(?: (-d|-n|-h|-k|-s)|$)?(?: ([\\s\\S]+)|$)")
+@shicy_cmd(pattern="paste(?: (-d|-n|-h|-k|-s)|$)?(?: ([\\s\\S]+)|$)")
 async def paste(pstl):
     """For .paste command, pastes the text directly to a pastebin."""
     service = pstl.pattern_match.group(1)
