@@ -10,7 +10,7 @@ from ShicyXd import CMD_HELP, bot
 from ShicyXd.shicy import eod, eor
 from ShicyXd.events import shicy_cmd
 from ShicyXd.shicy.tools import is_admin
-from Stringyins import get_string
+from Stringchiy import get_string
 
 CHAT_FLOOD = sql.__load_flood_settings()
 # warn mode for anti flood
