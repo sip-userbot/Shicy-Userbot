@@ -10,7 +10,7 @@ from ShicyXd import (
     LOGS,
     LOOP,
     STRING_SESSION,
-    blacklistshicy,
+    Shicyblacklist,
     bot,
     tgbot,
 )
