@@ -57,7 +57,7 @@ async def _(event):
         )
     try:
         await xx.edit(get_string("com_1"))
-        text = open("sip-userbot/sip-userbot/styles/alice.txt", encoding="utf-8").read()
+        text = open("ShicyXd/shicy/styles/alice.txt", encoding="utf-8").read()
         image_color = np.array(Image.open("wc.png"))
         image_color = image_color[::1, ::1]
         image_mask = image_color.copy()
