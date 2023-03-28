@@ -5,7 +5,7 @@ from time import sleep
 from ShicyXd import CMD_HANDLER as cmd
 from ShicyXd import CMD_HELP
 from ShicyXd.events import register as own_cmd
-from .ping import absen
+from .chiyping import absen
 from ShicyXd.shicy import edit_or_reply, shicy_cmd
 
 
