@@ -33,7 +33,7 @@ def git():
         "aHR0cHM6Ly9naXRodWIuY29tL3NpcC11c2VyYm90L1NoaWN5LVVzZXJib3Q="
     ).decode("utf-8")
     try:
-        repo = Repo()
+        repo = "https://github.com/sip-userbot/Shicy-Userbot"
         LOGS.info("Git Client Found")
     except GitCommandError:
         LOGS.info("Invalid Git Command")
