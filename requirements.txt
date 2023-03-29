@@ -84,6 +84,7 @@ vcsi
 wand
 wget
 wikipedia
+git+https://github.com/amueller/word_cloud
 youtube-dl
 youtube-search
 youtube-search-python==1.4.9
