@@ -211,17 +211,6 @@ def shicy_handler(
     return decorator
 
 
-def shicy_handler(
-    **args,
-):
-    def decorator(func):
-        if bot:
-            bot.add_event_handler(func, events.NewMessage(**args))
-        return func
-
-    return decorator
-
-
 def asst_cmd(**args):
     pattern = args.get("pattern", None)
     r_pattern = r"^[/!]"
