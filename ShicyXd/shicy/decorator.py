@@ -191,6 +191,42 @@ def shicy_cmd(
                         **args, from_users=list(SUDO_USERS), pattern=sudo_reg
                     ),
                 )
+        if MAN2:
+            if not disable_edited:
+                MAN2.add_event_handler(
+                    wrapper,
+                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                )
+            MAN2.add_event_handler(
+                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+            )
+        if MAN3:
+            if not disable_edited:
+                MAN3.add_event_handler(
+                    wrapper,
+                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                )
+            MAN3.add_event_handler(
+                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+            )
+        if MAN4:
+            if not disable_edited:
+                MAN4.add_event_handler(
+                    wrapper,
+                    events.MessageEdited(**args, outgoing=True, pattern=man_reg),
+                )
+            MAN4.add_event_handler(
+                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+            )
+        if MAN5:
+            if not disable_edited:
+                MAN5.add_event_handler(
+                    wrapper,
+                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                )
+            MAN5.add_event_handler(
+                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+            )
         try:
             LOAD_PLUG[file_test].append(wrapper)
         except Exception:
@@ -206,6 +242,14 @@ def shicy_handler(
     def decorator(func):
         if bot:
             bot.add_event_handler(func, events.NewMessage(**args))
+        if MAN2:
+            MAN2.add_event_handler(func, events.NewMessage(**args))
+        if MAN3:
+            MAN3.add_event_handler(func, events.NewMessage(**args))
+        if MAN4:
+            MAN4.add_event_handler(func, events.NewMessage(**args))
+        if MAN5:
+            MAN5.add_event_handler(func, events.NewMessage(**args))
         return func
 
     return decorator
@@ -230,6 +274,14 @@ def chataction(**args):
     def decorator(func):
         if bot:
             bot.add_event_handler(func, events.ChatAction(**args))
+        if MAN2:
+            MAN2.add_event_handler(func, events.ChatAction(**args))
+        if MAN3:
+            MAN3.add_event_handler(func, events.ChatAction(**args))
+        if MAN4:
+            MAN4.add_event_handler(func, events.ChatAction(**args))
+        if MAN5:
+            MAN5.add_event_handler(func, events.ChatAction(**args))
         return func
 
     return decorator
