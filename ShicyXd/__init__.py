@@ -323,7 +323,7 @@ except Exception as e:
 
 if STRING_2:
     session2 = StringSession(str(STRING_2))
-    bot2 = TelegramClient(
+    CHIY2 = TelegramClient(
         session=session2,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -338,7 +338,7 @@ if STRING_2:
 
 if STRING_3:
     session3 = StringSession(str(STRING_3))
-    bot3 = TelegramClient(
+    CHIY3 = TelegramClient(
         session=session3,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -353,7 +353,7 @@ if STRING_3:
 
 if STRING_4:
     session4 = StringSession(str(STRING_4))
-    bot4 = TelegramClient(
+    CHIY4 = TelegramClient(
         session=session4,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -367,7 +367,7 @@ if STRING_4:
 
 if STRING_5:
     session5 = StringSession(str(STRING_5))
-    bot5 = TelegramClient(
+    CHIY5 = TelegramClient(
         session=session5,
         api_id=API_KEY,
         api_hash=API_HASH,
