@@ -250,7 +250,7 @@ def register(**args):
         if CHIY4:
             if not disable_edited:
                 CHIY4.add_event_handler(wrapper, events.MessageEdited(**args))
-            MAN4.add_event_handler(wrapper, events.NewMessage(**args))
+            CHIY4.add_event_handler(wrapper, events.NewMessage(**args))
         if CHIY5:
             if not disable_edited:
                 CHIY5.add_event_handler(wrapper, events.MessageEdited(**args))
