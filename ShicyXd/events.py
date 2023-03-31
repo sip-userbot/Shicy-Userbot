@@ -11,7 +11,7 @@ from traceback import format_exc
 
 from telethon import events
 
-from ShicyXd import CMD_HANDLER, CMD_LIST, DEFAULT, DEVS, bot
+from ShicyXd import CMD_HANDLER, CMD_LIST, DEFAULT, DEVS, CHIY2, CHIY3, CHIY4, CHIY5, bot
 
 
 def shicy_cmd(pattern=None, command=None, **args):
@@ -239,6 +239,22 @@ def register(**args):
             if not disable_edited:
                 bot.add_event_handler(wrapper, events.MessageEdited(**args))
             bot.add_event_handler(wrapper, events.NewMessage(**args))
+        if CHIY2:
+            if not disable_edited:
+                CHIY2.add_event_handler(wrapper, events.MessageEdited(**args))
+            CHIY2.add_event_handler(wrapper, events.NewMessage(**args))
+        if CHIY3:
+            if not disable_edited:
+                CHIY3.add_event_handler(wrapper, events.MessageEdited(**args))
+            CHIY3.add_event_handler(wrapper, events.NewMessage(**args))
+        if CHIY4:
+            if not disable_edited:
+                CHIY4.add_event_handler(wrapper, events.MessageEdited(**args))
+            MAN4.add_event_handler(wrapper, events.NewMessage(**args))
+        if CHIY5:
+            if not disable_edited:
+                CHIY5.add_event_handler(wrapper, events.MessageEdited(**args))
+            CHIY5.add_event_handler(wrapper, events.NewMessage(**args))
         return wrapper
 
     return decorator
