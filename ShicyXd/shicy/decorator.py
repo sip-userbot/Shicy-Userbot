@@ -195,10 +195,10 @@ def shicy_cmd(
             if not disable_edited:
                 CHIY2.add_event_handler(
                     wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=man_reg),
+                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             CHIY2.add_event_handler(
-                wrapper, events.NewMessage(**args, outgoing=True, pattern=man_reg)
+                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
         if CHIY3:
             if not disable_edited:
