@@ -205,7 +205,8 @@ def shicy_cmd(
                     wrapper,
                     events.NewMessage(
                         **args, from_users=list(SUDO_USERS), pattern=sudo_reg
-            )
+                    ),
+                )
         if bot3:
             if not disable_edited:
                 bot3.add_event_handler(
