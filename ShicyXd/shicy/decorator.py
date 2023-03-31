@@ -211,9 +211,9 @@ def shicy_cmd(
             )
         if bot4:
             if not disable_edited:
-                MAN4.add_event_handler(
+                bot4.add_event_handler(
                     wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=man_reg),
+                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             bot4.add_event_handler(
                 wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
