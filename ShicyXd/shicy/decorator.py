@@ -192,13 +192,19 @@ def shicy_cmd(
                     ),
                 )
         if bot2:
-            if not disable_edited:
-                bot2.add_event_handler(
+            if allow_sudo:
+                if not disable_edited:
+                    bot.add_event_handler(
+                        wrapper,
+                        events.MessageEdited(
+                            **args,
+                            from_users=list(SUDO_USERS),
+                            pattern=sudo_reg),
+                    )
+                bot.add_event_handler(
                     wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
-                )
-            bot2.add_event_handler(
-                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+                    events.NewMessage(
+                        **args, from_users=list(SUDO_USERS), pattern=sudo_reg
             )
         if bot3:
             if not disable_edited:
