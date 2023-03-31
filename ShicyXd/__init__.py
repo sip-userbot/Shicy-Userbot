@@ -126,6 +126,10 @@ API_HASH = str(os.environ.get("API_HASH") or None)
 
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_2 = os.environ.get("STRING_2", None)
+STRING_3 = os.environ.get("STRING_3", None)
+STRING_4 = os.environ.get("STRING_4", None)
+STRING_5 = os.environ.get("STRING_5", None)
 
 # Logging channel/group ID configuration.
 BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "0"))
@@ -313,10 +317,73 @@ try:
         auto_reconnect=True,
         connection_retries=None,
     )
+call_py = PyTgCalls(bot)
 except Exception as e:
     print(f"STRING_SESSION - {e}")
     sys.exit()
 
+if STRING_2:
+    session2 = StringSession(str(STRING_2))
+    CHIY2 = TelegramClient(
+        session=session2,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py2 = PyTgCalls(CHIY2)
+else:
+    call_py2 = None
+    CHIY2 = None
+
+
+if STRING_3:
+    session3 = StringSession(str(STRING_3))
+    CHIY3 = TelegramClient(
+        session=session3,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py3 = PyTgCalls(bot3)
+else:
+    call_py3 = None
+    CHIY3 = None
+
+
+if STRING_4:
+    session4 = StringSession(str(STRING_4))
+    CHIY4 = TelegramClient(
+        session=session4,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py4 = PyTgCalls(CHIY4)
+else:
+    call_py4 = None
+    CHIY4 = None
+
+
+if STRING_5:
+    session5 = StringSession(str(STRING_5))
+    CHIY5 = TelegramClient(
+        session=session5,
+        api_id=API_KEY,
+        api_hash=API_HASH,
+        connection=ConnectionTcpAbridged,
+        auto_reconnect=True,
+        connection_retries=None,
+    )
+    call_py5 = PyTgCalls(CHIY5)
+else:
+    call_py5 = None
+    CHIY5 = None
 
 
 if BOT_TOKEN is not None:
