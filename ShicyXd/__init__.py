@@ -317,14 +317,13 @@ try:
         auto_reconnect=True,
         connection_retries=None,
     )
-call_py = PyTgCalls(bot)
 except Exception as e:
     print(f"STRING_SESSION - {e}")
     sys.exit()
 
 if STRING_2:
     session2 = StringSession(str(STRING_2))
-    CHIY2 = TelegramClient(
+    bot2 = TelegramClient(
         session=session2,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -332,15 +331,14 @@ if STRING_2:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py2 = PyTgCalls(CHIY2)
-else:
-    call_py2 = None
-    CHIY2 = None
+    except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 
 if STRING_3:
     session3 = StringSession(str(STRING_3))
-    CHIY3 = TelegramClient(
+    bot3 = TelegramClient(
         session=session3,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -348,15 +346,14 @@ if STRING_3:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py3 = PyTgCalls(bot3)
-else:
-    call_py3 = None
-    CHIY3 = None
+    except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 
 if STRING_4:
     session4 = StringSession(str(STRING_4))
-    CHIY4 = TelegramClient(
+    bot4 = TelegramClient(
         session=session4,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -364,15 +361,13 @@ if STRING_4:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py4 = PyTgCalls(CHIY4)
-else:
-    call_py4 = None
-    CHIY4 = None
-
+    except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 if STRING_5:
     session5 = StringSession(str(STRING_5))
-    CHIY5 = TelegramClient(
+    bot5 = TelegramClient(
         session=session5,
         api_id=API_KEY,
         api_hash=API_HASH,
@@ -380,10 +375,9 @@ if STRING_5:
         auto_reconnect=True,
         connection_retries=None,
     )
-    call_py5 = PyTgCalls(CHIY5)
-else:
-    call_py5 = None
-    CHIY5 = None
+    except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 
 if BOT_TOKEN is not None:
