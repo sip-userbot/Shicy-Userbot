@@ -191,47 +191,40 @@ def shicy_cmd(
                         **args, from_users=list(SUDO_USERS), pattern=sudo_reg
                     ),
                 )
-        if bot2:
-            if allow_sudo:
-                if not disable_edited:
-                    bot.add_event_handler(
-                        wrapper,
-                        events.MessageEdited(
-                            **args,
-                            from_users=list(SUDO_USERS),
-                            pattern=sudo_reg),
-                    )
-                bot.add_event_handler(
-                    wrapper,
-                    events.NewMessage(
-                        **args, from_users=list(SUDO_USERS), pattern=sudo_reg
-                    ),
-                )
-        if bot3:
+        if CHIY2:
             if not disable_edited:
-                bot3.add_event_handler(
+                CHIY2.add_event_handler(
+                    wrapper,
+                    events.MessageEdited(**args, outgoing=True, pattern=man_reg),
+                )
+            CHIY2.add_event_handler(
+                wrapper, events.NewMessage(**args, outgoing=True, pattern=man_reg)
+            )
+        if CHIY3:
+            if not disable_edited:
+                CHIY3.add_event_handler(
                     wrapper,
                     events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
-            bot3.add_event_handler(
+            CHIY3.add_event_handler(
                 wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
-        if bot4:
+        if CHIY4:
             if not disable_edited:
-                bot4.add_event_handler(
+                CHIY4.add_event_handler(
                     wrapper,
                     events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
-            bot4.add_event_handler(
+           CHIY4.add_event_handler(
                 wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
-        if bot5:
+        if CHIY5:
             if not disable_edited:
-                bot5.add_event_handler(
+                CHIY5.add_event_handler(
                     wrapper,
                     events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
-            bot5.add_event_handler(
+            CHIY5.add_event_handler(
                 wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
         try:
@@ -249,14 +242,14 @@ def shicy_handler(
     def decorator(func):
         if bot:
             bot.add_event_handler(func, events.NewMessage(**args))
-        if bot2:
+        if CHIY2:
             bot2.add_event_handler(func, events.NewMessage(**args))
-        if bot3:
+        if CHIY3:
             bot3.add_event_handler(func, events.NewMessage(**args))
-        if bot4:
-            bot4.add_event_handler(func, events.NewMessage(**args))
-        if bot5:
-            bot5.add_event_handler(func, events.NewMessage(**args))
+        if CHIY4:
+            CHIY4.add_event_handler(func, events.NewMessage(**args))
+        if CHIY5:
+            CHIY5.add_event_handler(func, events.NewMessage(**args))
         return func
 
     return decorator
@@ -281,14 +274,14 @@ def chataction(**args):
     def decorator(func):
         if bot:
             bot.add_event_handler(func, events.ChatAction(**args))
-        if bot2:
-            bot2.add_event_handler(func, events.ChatAction(**args))
-        if bot3:
-            bot3.add_event_handler(func, events.ChatAction(**args))
-        if bot4:
-            bot4.add_event_handler(func, events.ChatAction(**args))
-        if bot5:
-            bot5.add_event_handler(func, events.ChatAction(**args))
+        if CHIY2:
+            CHIY2.add_event_handler(func, events.ChatAction(**args))
+        if CHIY3:
+            CHIY3.add_event_handler(func, events.ChatAction(**args))
+        if CHIY4:
+            CHIY4.add_event_handler(func, events.ChatAction(**args))
+        if CHIY5:
+            CHIY5.add_event_handler(func, events.ChatAction(**args))
         return func
 
     return decorator
