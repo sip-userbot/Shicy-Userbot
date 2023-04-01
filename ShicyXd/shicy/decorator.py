@@ -184,38 +184,38 @@ def shicy_cmd(
         if CHIY2:
             if not disable_edited:
                 CHIY2.add_event_handler(
-                    wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                      wrapper,
+                      events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             CHIY2.add_event_handler(
-                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+                  wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
         if CHIY3:
             if not disable_edited:
                 CHIY3.add_event_handler(
-                    wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                      wrapper,
+                      events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             CHIY3.add_event_handler(
-                    wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+                  wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
         if CHIY4:
             if not disable_edited:
                 CHIY4.add_event_handler(
-                    wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                      wrapper,
+                      events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             CHIY4.add_event_handler(
-                 wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+                  wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
              )
         if CHIY5:
             if not disable_edited:
                 CHIY5.add_event_handler(
-                    wrapper,
-                    events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
+                      wrapper,
+                      events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             CHIY5.add_event_handler(
-                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+                  wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
         try:
             LOAD_PLUG[file_test].append(wrapper)
