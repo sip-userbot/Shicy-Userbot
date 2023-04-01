@@ -21,17 +21,7 @@ from telethon.errors import (
     MessageNotModifiedError,
 )
 
-from ShicyXd import (
-    BL_CHAT,
-    CMD_HANDLER,
-    CMD_LIST,
-    LOAD_PLUG,
-    LOGS,
-    SUDO_HANDLER,
-    SUDO_USERS,
-    bot,
-    tgbot,
-)
+from ShicyXd import *
 
 from .toolschiy import eod, eor
 
