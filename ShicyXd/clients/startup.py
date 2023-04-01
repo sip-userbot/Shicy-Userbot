@@ -43,6 +43,48 @@ def multishicy():
         except Exception as e:
             LOGS.info(str(e))
 
+    if STRING_3:
+        try:
+            CHIY3.start()
+            LOOP.run_until_complete(shicy_client(CHIY3))
+            user = CHIY3.get_me()
+            name = user.first_name
+            uid = user.id
+            LOGS.info(f"STRING_3 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
+            if user.id in blacklistShicy:
+                LOGS.warning(MSG_BLACKLIST.format(name, version))
+                sys.exit(1)
+        except Exception as e:
+            LOGS.info(str(e))
+
+    if STRING_4:
+        try:
+            CHIY4.start()
+            LOOP.run_until_complete(shicy_client(CHIY4))
+            user = CHIY4.get_me()
+            name = user.first_name
+            uid = user.id
+            LOGS.info(f"STRING_4 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
+            if user.id in blacklistShicy:
+                LOGS.warning(MSG_BLACKLIST.format(name, version))
+                sys.exit(1)
+        except Exception as e:
+            LOGS.info(str(e))
+
+    if STRING_5:
+        try:
+            CHIY4.start()
+            LOOP.run_until_complete(shicy_client(CHIY4))
+            user = CHIY4.get_me()
+            name = user.first_name
+            uid = user.id
+            LOGS.info(f"STRING_5 detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——")
+            if user.id in blacklistShicy:
+                LOGS.warning(MSG_BLACKLIST.format(name, version))
+                sys.exit(1)
+        except Exception as e:
+            LOGS.info(str(e))
+
     if STRING_SESSION:
         try:
             bot.start()
