@@ -321,9 +321,10 @@ except Exception as e:
     print(f"STRING_SESSION - {e}")
     sys.exit()
 
-if STRING_2:
-    session2 = StringSession(str(STRING_2))
-    try:
+
+try:
+    if STRING_2:
+        session2 = StringSession(str(STRING_2))
         CHIY2 = TelegramClient(
               session=session2,
               api_id=API_KEY,
@@ -332,14 +333,16 @@ if STRING_2:
               auto_reconnect=True,
               connection_retries=None,
         )
-    except Exception as e:
-        print(f"STRING_SESSION - {e}")
-        sys.exit()
+    else:
+        CHIY2 = None
+except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 
-if STRING_3:
-    session3 = StringSession(str(STRING_3))
-    try:
+try:
+    if STRING_3:
+        session3 = StringSession(str(STRING_3))
         CHIY3 = TelegramClient(
               session=session3,
               api_id=API_KEY,
@@ -348,14 +351,16 @@ if STRING_3:
               auto_reconnect=True,
               connection_retries=None,
         )
-    except Exception as e:
-        print(f"STRING_SESSION - {e}")
-        sys.exit()
+    else:
+        CHIY3 = None
+except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 
-if STRING_4:
-    session4 = StringSession(str(STRING_4))
-    try:
+try:
+    if STRING_4:
+        session4 = StringSession(str(STRING_4))
         CHIY4 = TelegramClient(
               session=session4,
               api_id=API_KEY,
@@ -364,24 +369,28 @@ if STRING_4:
               auto_reconnect=True,
               connection_retries=None,
         )
-    except Exception as e:
-        print(f"STRING_SESSION - {e}")
-        sys.exit()
+    else:
+        CHIY4 = None
+except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
-if STRING_5:
-    session5 = StringSession(str(STRING_5))
-    try:
-        CHIY2 = TelegramClient(
-              session=session2,
+try:
+    if STRING_5:
+        session5 = StringSession(str(STRING_5))
+        CHIY5 = TelegramClient(
+              session=session5,
               api_id=API_KEY,
               api_hash=API_HASH,
               connection=ConnectionTcpAbridged,
               auto_reconnect=True,
               connection_retries=None,
         )
-    except Exception as e:
-        print(f"STRING_SESSION - {e}")
-        sys.exit()
+    else:
+        CHIY5 = None
+except Exception as e:
+    print(f"STRING_SESSION - {e}")
+    sys.exit()
 
 
 if BOT_TOKEN is not None:
