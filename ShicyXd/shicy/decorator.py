@@ -207,7 +207,7 @@ def shicy_cmd(
                     events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
             CHIY3.add_event_handler(
-                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+                    wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
             )
         if CHIY4:
             if not disable_edited:
@@ -215,9 +215,9 @@ def shicy_cmd(
                     wrapper,
                     events.MessageEdited(**args, outgoing=True, pattern=shicy_reg),
                 )
-           CHIY4.add_event_handler(
-                wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
-            )
+            CHIY4.add_event_handler(
+                 wrapper, events.NewMessage(**args, outgoing=True, pattern=shicy_reg)
+             )
         if CHIY5:
             if not disable_edited:
                 CHIY5.add_event_handler(
