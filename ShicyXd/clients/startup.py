@@ -4,16 +4,7 @@ from telethon.utils import get_peer_id
 
 from ShicyXd import BOT_TOKEN
 from ShicyXd import BOT_VER as version
-from ShicyXd import (
-    DEFAULT,
-    DEVS,
-    LOGS,
-    LOOP,
-    STRING_SESSION,
-    blacklistShicy,
-    bot,
-    tgbot,
-)
+from ShicyXd import *
 from ShicyXd.modules.gcast import GCAST_BLACKLIST as GBL
 
 EOL = "EOL\nShicy-UserBot v{}, Copyright © 2021-2022 shicy• <https://github.com/sip-userbot>"
@@ -36,6 +27,22 @@ def multishicy():
         LOGS.warning(EOL.format(version))
         sys.exit(1)
     failed = 0
+    if STRING_2:
+        try:
+            CHIY2.start()
+            LOOP.run_until_complete(shicy_client(CHIY2))
+            user = CHIY2.get_me()
+            name = user.first_name
+            uid = user.id
+            LOGS.info(
+                f"STRING_SESSION detected!\n┌ First Name: {name}\n└ User ID: {uid}\n——"
+            )
+            if user.id in blacklistShicy:
+                LOGS.warning(MSG_BLACKLIST.format(name, version))
+                sys.exit(1)
+        except Exception as e:
+            LOGS.info(str(e))
+
     if STRING_SESSION:
         try:
             bot.start()
